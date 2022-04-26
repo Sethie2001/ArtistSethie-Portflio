@@ -1,7 +1,8 @@
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: #a4def9ff;
     font-family: sans-serif;
+    color: #284b63ff;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 h2 {
     font-size: 1.6em;
+    float: left;
 }
 
 h3 {
@@ -31,14 +33,22 @@ p {
 
 header,
 footer {
-    background-color: #777999;
+    background-color: #284b63ff;
+    color: #a4def9ff;
     padding: 2em 0;
+}
+header h1{
+    display: inline;
+}
+.logoimg{
+    width: 10%;
 }
 
 .hero {
     text-align: center;
-    background: #a5a5a5;
-    min-height: 5em;
+    min-width: 100%;
+    background-image: url(../images/Backcan.JPG);
+    background-repeat: no-repeat;
     padding: 2em;
     margin: 1em 0;
     /* vertically align */
@@ -49,8 +59,12 @@ footer {
 
 }
 
-
-
 main {
     margin-bottom: 2em;
 }
+/*Colour palet 
+--uranian-blue: #a4def9ff;
+--indigo-dye: #284b63ff;
+--english-lavender: #b38d97ff;
+--pastel-pink: #d5aca9ff;
+--selective-yellow: #ffba08ff;*/
