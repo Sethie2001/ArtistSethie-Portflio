@@ -25,9 +25,13 @@ p {
     line-height: 1.5em;
     margin-bottom: 1.5em;
 }
+.heading1{
+    font-size: 2em;
+    font-weight: bold;
+}
 
 .inner-wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -42,21 +46,25 @@ header h1{
 }
 .logoimg{
     width: 10%;
+    margin-left: 0.1%;
 }
-
+.imgbackground{
+    background-image: url(../images/Backcan.JPG);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
 .hero {
     text-align: center;
-    min-width: 100%;
-    background-image: url(../images/Backcan.JPG);
-    background-repeat: no-repeat;
-    padding: 2em;
-    margin: 1em 0;
-    /* vertically align */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%); 
+    color:#ffba08ff ;
+    background-color: rgb(40, 75, 99, 0.5);
+    font-size: 2em;
+   
 }
 
 main {
@@ -67,4 +75,20 @@ main {
 --indigo-dye: #284b63ff;
 --english-lavender: #b38d97ff;
 --pastel-pink: #d5aca9ff;
---selective-yellow: #ffba08ff;*/
+--selective-yellow: #ffba08ff;
+
+
+.hero {
+    text-align: center;
+    min-width: 100%;    
+    background-image: url(../images/Backcan.JPG);
+    background-repeat: no-repeat;
+    padding: 2em;
+    margin: 1em 0;
+    -- vertically align --
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}*/
