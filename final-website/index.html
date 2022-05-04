@@ -24,15 +24,33 @@
     <!--A space for all the header content on the webpage, 
 For example, the logo, nav bar, etc-->
 <header>
-    <div class="inner-wrapper">
+    <div class="header-wrapper">
     <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
          <div class="heading1">Artist Sethie</div>
-    
     </div>
 </header>
 
+    <div class= "navbar" id="mynavbar">
+        <a class="active" href="index.html" > Home</a>
+        <a href="#" > About Me</a>
+        <div class = "dropdown">                            
+            <button class="dropbtn">Artworks</button>
+                <div class="dropdown-content">
+                    <a href="#">Traditional</a>
+                    <a href="#">Digital</a>
+                </div>
+        </div>                             
+        <div class = "dropdown">
+        <button class="dropbtn">Films</button>
+            <div class="dropdown-content">
+                <a href="#">Animation</a>
+                <a href="#">Live Action</a>
+            </div>
+         </div>
+    </div>
+
+
     <main>
-        <div class="inner-wrapper">
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             
@@ -45,13 +63,39 @@ For example, the logo, nav bar, etc-->
 </div>
 
 <div class="main-content">
-    <h1>Hello!</h1>
-<h2>I am your index.md file</h2>
-<p>Any content you add to this markdown file will be displayed on the homepage</p>
+    <div class="inner-wrapper">
+    <h1>About the Artist</h1>
+<p>I'm a Canberra born Artist and have studied Visual Art through high school every year (year 7 - 12) and currently studying a Bachlour of Art in Digital Media. I have worked in many medium throughout my life, some areas I have worked with in tradition art is Sketching, painting, scupture, etc. In other areas I have done digital art, animation software and film editing (primere pro, after effect, and Davinci Resolve). I dream to become a animator and create great animated film for people to see. <a href="#about">Read More...</a></p>
 
+   
+    </div>
+</div>
+<div class="section2">
+    <div class="artgallery">
+        <div class="column">
+            <img src="assets/images/image1.jpg" class="artwork">        
+            <img src="assets/images/image2.jpg" class="artwork">
+        </div>
+        <div class="column">
+            <img src="assets/images/image3.jpg" class="artwork">  
+            <img src="assets/images/image6.jpg" class="artwork">
+        </div>
+        <div class="column">
+            <img src="assets/images/image5.png" class="artwork">        
+            <img src="assets/images/image4.jpg" class="artwork">
+            <img src="assets/images/Backcan.JPG" class="artwork">
+        </div>
+    </div>
+</div>
+<div class="main-content">
+    <div class="inner-wrapper">
+        
+    </div>
 </div>
             
-        </div>
+
+            
+        
     </main>
 
     <!-- The content in this file is inserted into the base.html file -->

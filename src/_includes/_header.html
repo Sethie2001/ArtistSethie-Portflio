@@ -1,9 +1,28 @@
 <!--A space for all the header content on the webpage, 
 For example, the logo, nav bar, etc-->
 <header>
-    <div class="inner-wrapper">
+    <div class="header-wrapper">
     <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
          <div class="heading1">{{ title }}</div>
-    
     </div>
 </header>
+
+    <div class= "navbar" id="mynavbar">
+        <a class="active" href="index.html" > Home</a>
+        <a href="#" > About Me</a>
+        <div class = "dropdown">                            
+            <button class="dropbtn">Artworks</button>
+                <div class="dropdown-content">
+                    <a href="#">Traditional</a>
+                    <a href="#">Digital</a>
+                </div>
+        </div>                             
+        <div class = "dropdown">
+        <button class="dropbtn">Films</button>
+            <div class="dropdown-content">
+                <a href="#">Animation</a>
+                <a href="#">Live Action</a>
+            </div>
+         </div>
+    </div>
+
