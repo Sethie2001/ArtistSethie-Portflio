@@ -6,8 +6,9 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets/js");    
     eleventyConfig.addPassthroughCopy("src/assets/images");
 
-
+   
     return {
+        
         dir: {
             input: "src",
             includes: "_includes",
@@ -16,5 +17,6 @@ module.exports = function (eleventyConfig) {
             //change where the website it output
             output: "final-website",
         }
+        
     };
 };

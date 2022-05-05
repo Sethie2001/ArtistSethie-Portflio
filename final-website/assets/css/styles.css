@@ -33,6 +33,7 @@ p {
 .inner-wrapper {
     width:60%;
     padding-top: 2%;
+    padding-bottom: 2%;
     margin: 0 auto;
 }
 .header-wrapper {
@@ -76,11 +77,10 @@ header h1{
     float: left;
     margin-left: 2%;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     text-align: center;
     padding: 20px 23px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .navbar a.active, button.active, .dropdown a.active, .dropbtn.active{
@@ -94,11 +94,10 @@ header h1{
       }
       
   .dropdown .dropbtn {
-    font-size: 25px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    font-weight: bold;
     padding: 20px 23px;
     background-color: rgb(69, 120, 153);
     font-family: inherit;
@@ -112,8 +111,8 @@ header h1{
   .dropdown-content {
     display: none;
     position: absolute;
-   background-color: rgb(80, 127, 158);
-   min-width: 50px;
+    background-color: rgb(80, 127, 158);
+    min-width: 50px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -148,6 +147,8 @@ header h1{
 main {
     margin-bottom: 2em;
 }
+/*Flex box for the gallery,
+first class is the main flex container, defining everything for the items*/
 .artgallery{
     display: flex;
     padding: 2px;
@@ -159,22 +160,53 @@ main {
   flex-direction: column;
   width: 25%;    
 }
+/*artwork is the class for the image to set its propties, like how its display and size*/
 .artwork{
     display: block;
     width: 100%;
     transition: .3s;
 }
+/*Turn the flex on, allow the flex box to work*/
+.flex-footer{
+    display: flex;
+    padding: 2%;
+}
+.footersection{
+    flex:1; 
+}
+.footersection:first-child{
+    margin-right: 2%;
+}
+.footersection:last-child{
+    text-align: right;
+}
+.footersection a{
+    color: rgb(220, 241, 251);
+}
+.social{
+    margin-top: 25%;
+    margin-right: 2%;
+    width: 7%;
+}
 
 
+.quote{
+    padding: 2% 0 2%;   
+    text-align: center;
+    font-size: 20px;    
+}
 
+blockquote::before {
+    content: open-quote;
+  }
+  blockquote::after {
+    content: close-quote;
+  }
 
-
-
-
-
-
-
-
+blockquote{
+    quotes: "“" "”" "‘" "’";
+    font-size: 30px;
+}
 
 /*Colour palet 
 --uranian-blue: #a4def9ff;
@@ -182,19 +214,3 @@ main {
 --english-lavender: #b38d97ff;
 --pastel-pink: #d5aca9ff;
 --selective-yellow: #ffba08ff;
-
-
-.hero {
-    text-align: center;
-    min-width: 100%;    
-    background-image: url(../images/Backcan.JPG);
-    background-repeat: no-repeat;
-    padding: 2em;
-    margin: 1em 0;
-    -- vertically align --
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-}*/

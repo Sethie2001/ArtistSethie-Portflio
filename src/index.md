@@ -3,11 +3,13 @@
 layout: layouts/homepage
 
 # set the page title
-title: Artist Sethie
+title: Home - Artist Sethie
+maintitle: Artist Sethie
 
 # We can set extra info here to use in our templates 
-# ![alt text](assets/images/Backcan.JPG)
 
+
+#Be able to change the image through the markdown
 images:
     first: assets/images/image1.jpg
     second: assets/images/image2.jpg
@@ -16,6 +18,11 @@ images:
     five: assets/images/image5.png
     six: assets/images/image4.jpg
     seven: assets/images/Backcan.JPG
+
+
+#the text for below the image gallery 
+quote: "I dream my painting and I paint my dream."
+quoteauthor: "Vincent Van Gogh"
 
 ---
 # About the Artist
