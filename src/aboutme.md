@@ -2,5 +2,10 @@
 layout: layouts/main
 title: Artist Sethie - About Me
 maintitle: Artist Sethie
+
+images:
+    image: /assets/images/person1.JPG
+
 ---
-hello
+# About Me
+Hello, I'm Artist Sethie

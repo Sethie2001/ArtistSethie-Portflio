@@ -25,6 +25,12 @@ p {
     line-height: 1.5em;
     margin-bottom: 1.5em;
 }
+img{
+    width: 25%;
+}
+.imageprofile{
+    border: 10px solid #b38d97ff ;
+}
 .heading1{
     font-size: 2em;
     font-weight: bold;
@@ -129,6 +135,9 @@ header h1{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .navbar a.icon{
+    display: none;
+  }
 
   /*End of Navbarcss*/
 
@@ -166,27 +175,33 @@ first class is the main flex container, defining everything for the items*/
     width: 100%;
     transition: .3s;
 }
-/*Turn the flex on, allow the flex box to work*/
-.flex-footer{
+/* This flex box allows the item to display next to each other
+Turn the flex on, allow the flex box to work*/
+.flex-along{
     display: flex;
     padding: 2%;
+    align-items: center;
+    justify-content: center;
+        
 }
-.footersection{
+
+.alongsection{
     flex:1; 
 }
-.footersection:first-child{
+.alongsection:first-child{
     margin-right: 2%;
 }
-.footersection:last-child{
+footer.alongsection:last-child{
     text-align: right;
 }
-.footersection a{
+.alongsection a{
     color: rgb(220, 241, 251);
 }
 .social{
     margin-top: 25%;
     margin-right: 2%;
     width: 7%;
+    float: right
 }
 
 
@@ -214,3 +229,42 @@ blockquote{
 --english-lavender: #b38d97ff;
 --pastel-pink: #d5aca9ff;
 --selective-yellow: #ffba08ff;
+
+*/
+
+@media screen and  (max-width: 610px ) {
+   /*all the a tag in nav but the first tag (which is home) change
+   display to none and is no longer visable*/
+   .navbar a:not(:first-child),.dropdown .dropbtn, #header .flex-footer a:not(:first-child), #header .donatebtn{
+    display: none;
+  }
+  /*The resopisive sandwitch icon appear in the place of the other
+  icon and is on the right of screen*/
+  .navbar a.icon{
+    float: right;
+    display: block;
+  }
+  /*the new class resposive is effect by the javascript and putting all 
+  the hidden links into colunms and inside the icon link.*/
+   .navbar .responsive{position: relative;}
+   .navbar .responsive a.icon{
+     position: absolute;
+     right: 0;
+     top:0;
+   }
+   /*Setting the item in the navbar, to not float allowing for each
+   item to be on it own line*/
+   .navbar.responsive a {
+     float: none;
+     display: block;
+     text-align: center;
+   }
+   /*Doing changing setting of the dropdown menu, to also be able to
+   be in the responsive nav bar*/
+   .navbar.responsive .dropdown {float: none;}
+   .navbar.responsive .dropdown-content {position: relative;}
+   .navbar.responsive .dropdown .dropbtn {
+     display: block;
+     width: 100%;
+   }
+}

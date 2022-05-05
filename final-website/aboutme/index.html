@@ -9,9 +9,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- load our reset stylesheet -->
-<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="/assets/css/reset.css">
 <!-- load our main stylesheet -->
-<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="/assets/css/styles.css">
 
 <!-- you could add favicons etc here -->
    
@@ -32,7 +32,7 @@ For example, the logo, nav bar, etc-->
 </header>
 
     <div class= "navbar" id="mynavbar">
-        <a class="active" href="/home" > Home</a>
+        <a href="/" > Home</a>
         <a href="/aboutme" > About Me</a>
         <div class = "dropdown">                            
             <button class="dropbtn">Artworks</button>
@@ -57,27 +57,33 @@ For example, the logo, nav bar, etc-->
             
             
 <div class="main-content">
-    <div class="inner-wrapper">
-        <p>hello</p>
+    <div class="flex-along">
+        <div class="alongsection">
+        <h1>About Me</h1>
+<p>Hello, I'm Artist Sethie</p>
 
-   
+        </div>  
+        <div class="alongsection">
+            <img src="/assets/images/person1.JPG" alt="Image of Artist sethie">
+        </div>
+      
     </div>
 </div>
             
     </main>
     <!-- The content in this file is inserted into the base.html file -->
 <footer>
-        <div class="flex-footer">
-            <div class="footersection">
+        <div class="flex-along">
+            <div class="alongsection">
                 <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">
                 <p>This is Artist Sethie Portflio. All the Artwork, film, etc on this site belong to them. 
                 Don't steal or use Artwork on this site. Ask permission from Artist Sethie if wanting to use
                 the artwork. <br/> Contact Artist Sethie here: <br/><a href="mailto:artist.sethie@gmail.com">artist.sethie@gmail.com</a> <br/>
                 Copyright ©2022 Artist Sethie, All rights reserved.</p>
             </div>
-            <div class="footersection">
-                <a href="#"><img src="../assets/images/social/insta-b.png" class="social" id="insta"></a>
-                <a href="#"><img src="../assets/images/social/youtube-b.png" class="social" id="youtube"> </a> 
+            <div class="alongsection">
+                <a href="#"><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
+                <a href="#"><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
             </div>
             
         </div>
