@@ -4,7 +4,9 @@
 <head>
 
     <!-- load the head content from the head.html file -->
-    <!-- This content is inserted into the base.html file -->
+    <!-- This content is inserted into the base.html file
+This is all the main things need between the <head> tag. allowing for the page 
+to link to extrnal css, etc -->
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,14 +25,18 @@
 </head>
 
 <body>
-    <a name="top"></a>
+    <a id="top"></a>
     <!--A space for all the header content on the webpage, 
-For example, the logo, nav bar, etc-->
+For example, the logo, nav bar, etc
+
+Putting all the header content in seprate html link to base.html so the base one doesn't get too
+full-->
 <header>
-    <div class="header-wrapper">
-    <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
-         <div class="heading1">Artist Sethie</div>
-    </div>
+        <div class="logotext">
+            <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
+            <h1>Artist Sethie's Portflio</h1>
+        </div>
+   
 </header>
 
     <div class= "navbar" id="mynavbar">
@@ -58,7 +64,8 @@ For example, the logo, nav bar, etc-->
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             
-            
+            <!--A slightly different layout for the about page.
+allowing for images-->
 <div class="main-content">
     <div class="flex-along">
         <div class="alongsection">
@@ -68,7 +75,7 @@ For example, the logo, nav bar, etc-->
 
         </div>  
         <div class="alongsection">
-            <img src="/assets/images/person1.JPG" class="imageprofile">
+            <img src="/assets/images/person1.JPG" alt="Image of Artist sethie, a sketch" class="imageprofile">
             
         </div>
       
@@ -77,7 +84,9 @@ For example, the logo, nav bar, etc-->
             
             <a href="#top" class="btop">Back To Top</a>
     </main>
-    <!-- The content in this file is inserted into the base.html file -->
+    <!-- All the content here is access through the base html, 
+the content here are not changed by a markdown becuase most the footer content won't need to
+be changes -->
 <footer>
         <div class="flex-along">
             <div class="alongsection">
@@ -88,8 +97,8 @@ For example, the logo, nav bar, etc-->
                <p> Copyright ©2022 Artist Sethie, All rights reserved.</p>
             </div>
             <div class="alongsection">
-                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
-                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
+                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" alt="instagram" class="social" id="insta"></a>
+                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" alt="youtube" class="social" id="youtube"> </a> 
             </div>
             
         </div>

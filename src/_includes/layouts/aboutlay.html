@@ -1,14 +1,15 @@
 ---
 layout: base
 ---
-
+<!--A slightly different layout for the about page.
+allowing for images-->
 <div class="main-content">
     <div class="flex-along">
         <div class="alongsection">
         {{ content }}
         </div>  
         <div class="alongsection">
-            <img src="{{images.image}}" class="imageprofile">
+            <img src="{{images.image}}" alt="{{alt.text}}" class="imageprofile">
             
         </div>
       

@@ -5,7 +5,7 @@ layout: base
 <div class="imgbackground">
     <div class="hero">
         <h2>Welcome to My Portflio</h2>
-        <h4>The Artwork & Films of {{maintitle}}</h4>
+        <h4>The Artwork & Films of Artist Sethie</h4>
     </div>
 </div>
 
@@ -15,23 +15,26 @@ layout: base
    
     </div>
 </div>
+<!--This section is for the gallery of image
+the image tag is getting the image/alt from the markdown file -->
 <div class="section2">
     <div class="artgallery">
         <div class="column">
-            <img src="{{images.first}}" class="artwork">        
-            <img src="{{images.second}}" class="artwork">
+            <img src="{{images.first}}" alt="{{images.alt1}}" class="artwork">        
+            <img src="{{images.second}}" alt="images.alt2}}" class="artwork">
         </div>
         <div class="column">
-            <img src="{{images.third}}" class="artwork">  
-            <img src="{{images.forth}}" class="artwork">
+            <img src="{{images.third}}" alt="{{images.alt3}}" class="artwork">  
+            <img src="{{images.forth}}" alt="{{images.alt4}}" class="artwork">
         </div>
         <div class="column">
-            <img src="{{images.five}}" class="artwork">        
-            <img src="{{images.six}}" class="artwork">
-            <img src="{{images.seven}}" class="artwork">
+            <img src="{{images.five}}" alt="{{images.alt5}}" class="artwork">        
+            <img src="{{images.six}}" alt="{{images.alt6}}" class="artwork">
+            <img src="{{images.seven}}" alt="{{images.alt7}}" class="artwork">
         </div>
     </div>
 </div>
+<!--Getting the content from quote and quote author section-->
     <div class="quote">
         <blockquote>
             {{quote}}

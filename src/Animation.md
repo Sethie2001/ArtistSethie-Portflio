@@ -1,7 +1,7 @@
 ---
 layout: layouts/main
 title: Artist Sethie - Animation
-maintitle: Artist Sethie
+
 ---
 
 # Animation

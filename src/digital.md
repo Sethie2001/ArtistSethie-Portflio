@@ -1,7 +1,7 @@
 ---
 layout: layouts/main
 title: Artist Sethie - Digital Art
-maintitle: Artist Sethie
+
 ---
 
 # Digital Art

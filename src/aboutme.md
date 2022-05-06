@@ -1,11 +1,13 @@
 ---
 layout: layouts/aboutlay
 title: Artist Sethie - About Me
-maintitle: Artist Sethie
+
 
 images:
     image: /assets/images/person1.JPG
 
+alt:
+    text: Image of Artist sethie, a sketch
 ---
 # About Me  
 

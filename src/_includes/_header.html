@@ -1,10 +1,14 @@
 <!--A space for all the header content on the webpage, 
-For example, the logo, nav bar, etc-->
+For example, the logo, nav bar, etc
+
+Putting all the header content in seprate html link to base.html so the base one doesn't get too
+full-->
 <header>
-    <div class="header-wrapper">
-    <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
-         <div class="heading1">{{ maintitle }}</div>
-    </div>
+        <div class="logotext">
+            <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
+            <h1>{{ maintitle }}</h1>
+        </div>
+   
 </header>
 
     <div class= "navbar" id="mynavbar">

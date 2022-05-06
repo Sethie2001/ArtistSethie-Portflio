@@ -4,7 +4,9 @@
 <head>
 
     <!-- load the head content from the head.html file -->
-    <!-- This content is inserted into the base.html file -->
+    <!-- This content is inserted into the base.html file
+This is all the main things need between the <head> tag. allowing for the page 
+to link to extrnal css, etc -->
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,14 +25,18 @@
 </head>
 
 <body>
-    <a name="top"></a>
+    <a id="top"></a>
     <!--A space for all the header content on the webpage, 
-For example, the logo, nav bar, etc-->
+For example, the logo, nav bar, etc
+
+Putting all the header content in seprate html link to base.html so the base one doesn't get too
+full-->
 <header>
-    <div class="header-wrapper">
-    <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
-         <div class="heading1">Artist Sethie</div>
-    </div>
+        <div class="logotext">
+            <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
+            <h1>Artist Sethie's Portflio</h1>
+        </div>
+   
 </header>
 
     <div class= "navbar" id="mynavbar">
@@ -74,23 +80,26 @@ For example, the logo, nav bar, etc-->
    
     </div>
 </div>
+<!--This section is for the gallery of image
+the image tag is getting the image/alt from the markdown file -->
 <div class="section2">
     <div class="artgallery">
         <div class="column">
-            <img src="assets/images/image1.jpg" class="artwork">        
-            <img src="assets/images/image2.jpg" class="artwork">
+            <img src="assets/images/image1.jpg" alt="3D model of a Ginza line train" class="artwork">        
+            <img src="assets/images/image2.jpg" alt="images.alt2}}" class="artwork">
         </div>
         <div class="column">
-            <img src="assets/images/image3.jpg" class="artwork">  
-            <img src="assets/images/image6.jpg" class="artwork">
+            <img src="assets/images/image3.jpg" alt="Digital art of Spider Gewn" class="artwork">  
+            <img src="assets/images/image6.jpg" alt="Testra tower" class="artwork">
         </div>
         <div class="column">
-            <img src="assets/images/image5.png" class="artwork">        
-            <img src="assets/images/image4.jpg" class="artwork">
-            <img src="assets/images/Backcan.JPG" class="artwork">
+            <img src="assets/images/image5.png" alt="Sketch of school" class="artwork">        
+            <img src="assets/images/image4.jpg" alt="Watercolour of temple" class="artwork">
+            <img src="assets/images/Backcan.JPG" alt="Starry night" class="artwork">
         </div>
     </div>
 </div>
+<!--Getting the content from quote and quote author section-->
     <div class="quote">
         <blockquote>
             I dream my painting and I paint my dream.
@@ -101,7 +110,9 @@ For example, the logo, nav bar, etc-->
             
             <a href="#top" class="btop">Back To Top</a>
     </main>
-    <!-- The content in this file is inserted into the base.html file -->
+    <!-- All the content here is access through the base html, 
+the content here are not changed by a markdown becuase most the footer content won't need to
+be changes -->
 <footer>
         <div class="flex-along">
             <div class="alongsection">
@@ -112,8 +123,8 @@ For example, the logo, nav bar, etc-->
                <p> Copyright ©2022 Artist Sethie, All rights reserved.</p>
             </div>
             <div class="alongsection">
-                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
-                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
+                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" alt="instagram" class="social" id="insta"></a>
+                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" alt="youtube" class="social" id="youtube"> </a> 
             </div>
             
         </div>
