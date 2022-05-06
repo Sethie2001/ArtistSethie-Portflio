@@ -80,10 +80,11 @@ footer {
 .logotext h1{
     font-weight: bold;
     display: block;
+    font-size: 1em;
     
 }
 .logoimg{   
-    width: 10%;
+    width: 20%;
 }
 /*Setting the main image background for the homepage*/
 .imgbackground{
@@ -103,7 +104,6 @@ footer {
     top: 60%;
     left: 50%;
     /*setting the size of the background color / box*/
-    padding: 50px 100px;
     transform: translate(-50%); 
     color:#ffba08ff ;
     background-color: rgb(40, 75, 99, 0.5);
@@ -336,8 +336,10 @@ now at the top of it. easier for phone user to see*/
       font-size: 80%;
       margin-left: 35%;
   }
-  img{
-      width: 80%;
+  
+  .hero{
+      top:100%;
+      font-size: 100%;
   }
 }
 /*Slight change for even smaller screen*/
@@ -350,5 +352,11 @@ now at the top of it. easier for phone user to see*/
     }
     .main-content .alongsection{
         font-size: 35%;
+    }
+    .logoimg{
+        width: 30%;
+    }
+    .logotext h1{
+        font-size: 90%;
     }
 }
