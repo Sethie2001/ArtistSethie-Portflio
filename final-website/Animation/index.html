@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- load the head content from the head.html file -->
+    <!-- This content is inserted into the base.html file -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- load our reset stylesheet -->
+<link rel="stylesheet" href="/assets/css/reset.css">
+<!-- load our main stylesheet -->
+<link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/script.js"></script>
+
+<!-- you could add favicons etc here -->
+   
+         
+
+    <!-- set the site title to be a variable, defined in the md file -->
+    <title>Artist Sethie - Animation</title>
+</head>
+
+<body>
+    <a name="top"></a>
+    <!--A space for all the header content on the webpage, 
+For example, the logo, nav bar, etc-->
+<header>
+    <div class="header-wrapper">
+    <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">    
+         <div class="heading1">Artist Sethie</div>
+    </div>
+</header>
+
+    <div class= "navbar" id="mynavbar">
+        <a href="/" > Home</a>
+        <a href="/aboutme" > About Me</a>
+        <div class = "dropdown">                            
+            <button class="dropbtn">Artworks</button>
+                <div class="dropdown-content">
+                    <a href="/traidional">Traditional</a>
+                    <a href="/digital">Digital</a>
+                </div>
+        </div>                             
+        <div class = "dropdown">
+        <button class="dropbtn">Films</button>
+            <div class="dropdown-content">
+                <a href="/Animation">Animation</a>
+                <a href="/livefilm">Live Action</a>
+            </div>
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    
+    <main>
+            <!-- STOP! Don't add anything more to the base template -->
+            <!-- the content here is loaded through the homepage template -->
+            
+            
+<div class="main-content">
+    <div class="inner-wrapper">
+  
+        <h1>Animation</h1>
+<p>This page is to show off my animation content</p>
+
+   
+    </div>
+</div>
+            
+            <a href="#top" class="btop">Back To Top</a>
+    </main>
+    <!-- The content in this file is inserted into the base.html file -->
+<footer>
+        <div class="flex-along">
+            <div class="alongsection">
+                <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">
+                <p>This is Artist Sethie Portflio. All the Artwork, film, etc on this site belong to them. 
+                Don't steal or use Artwork on this site. Ask permission from Artist Sethie if wanting to use
+                the artwork. <br/> Contact Artist Sethie here: <br/><a href="mailto:artist.sethie@gmail.com">artist.sethie@gmail.com</a> <br/></p>
+               <p> Copyright ©2022 Artist Sethie, All rights reserved.</p>
+            </div>
+            <div class="alongsection">
+                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
+                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
+            </div>
+            
+        </div>
+</footer>
+</body>
+
+</html>

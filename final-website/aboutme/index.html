@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="/assets/css/reset.css">
 <!-- load our main stylesheet -->
 <link rel="stylesheet" href="/assets/css/styles.css">
+<script src="/assets/js/script.js"></script>
 
 <!-- you could add favicons etc here -->
    
@@ -22,6 +23,7 @@
 </head>
 
 <body>
+    <a name="top"></a>
     <!--A space for all the header content on the webpage, 
 For example, the logo, nav bar, etc-->
 <header>
@@ -37,20 +39,21 @@ For example, the logo, nav bar, etc-->
         <div class = "dropdown">                            
             <button class="dropbtn">Artworks</button>
                 <div class="dropdown-content">
-                    <a href="#">Traditional</a>
-                    <a href="#">Digital</a>
+                    <a href="/traidional">Traditional</a>
+                    <a href="/digital">Digital</a>
                 </div>
         </div>                             
         <div class = "dropdown">
         <button class="dropbtn">Films</button>
             <div class="dropdown-content">
-                <a href="#">Animation</a>
-                <a href="#">Live Action</a>
+                <a href="/Animation">Animation</a>
+                <a href="/livefilm">Live Action</a>
             </div>
          </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
-
+    
     <main>
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
@@ -60,16 +63,19 @@ For example, the logo, nav bar, etc-->
     <div class="flex-along">
         <div class="alongsection">
         <h1>About Me</h1>
-<p>Hello, I'm Artist Sethie</p>
+<h3>Hello, I'm Artist Sethie.</h3>
+<p>A Canberra based artist who is also Australian and Japanese. I have lived in Canberra my whole life and Have studied Visual Art since Year 7 but have love doing Art my whole life. I started studying art at Marist Colledge Canberra and conuintune studing until I gradurated, now I'm study a Bachlour of Art in Didital Media at the University of Canberra. My goal is to learn more about Animation and someday be part of the animation industry. I have also study some Film units while studying at the university.</p>
 
         </div>  
         <div class="alongsection">
-            <img src="/assets/images/person1.JPG" alt="Image of Artist sethie">
+            <img src="/assets/images/person1.JPG" class="imageprofile">
+            
         </div>
       
     </div>
 </div>
             
+            <a href="#top" class="btop">Back To Top</a>
     </main>
     <!-- The content in this file is inserted into the base.html file -->
 <footer>
@@ -78,12 +84,12 @@ For example, the logo, nav bar, etc-->
                 <img src="../assets/images/logo-artist.png" alt="Artist sethie's logo" class="logoimg">
                 <p>This is Artist Sethie Portflio. All the Artwork, film, etc on this site belong to them. 
                 Don't steal or use Artwork on this site. Ask permission from Artist Sethie if wanting to use
-                the artwork. <br/> Contact Artist Sethie here: <br/><a href="mailto:artist.sethie@gmail.com">artist.sethie@gmail.com</a> <br/>
-                Copyright ©2022 Artist Sethie, All rights reserved.</p>
+                the artwork. <br/> Contact Artist Sethie here: <br/><a href="mailto:artist.sethie@gmail.com">artist.sethie@gmail.com</a> <br/></p>
+               <p> Copyright ©2022 Artist Sethie, All rights reserved.</p>
             </div>
             <div class="alongsection">
-                <a href="#"><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
-                <a href="#"><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
+                <a href="https://www.instagram.com/artist_sethie/" target="_blank" ><img src="../assets/images/social/insta-w.png" class="social" id="insta"></a>
+                <a href="https://www.youtube.com/channel/UCy8VJidt64TbUOpc6tHtRZQ" target="_blank" ><img src="../assets/images/social/youtube-w.png" class="social" id="youtube"> </a> 
             </div>
             
         </div>

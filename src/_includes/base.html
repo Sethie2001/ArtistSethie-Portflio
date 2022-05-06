@@ -12,13 +12,15 @@
 </head>
 
 <body>
-    {% include '_header.html' %}
+    <a name="top"></a>
+    {% include '_header.html' %}    
     <main>
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             {% block content %}
             {{ content }}
             {% endblock %}
+            <a href="#top" class="btop">Back To Top</a>
     </main>
     {% include '_footer.html' %}
 </body>

@@ -1,5 +1,9 @@
+html{
+    /*Makes the scroll back to top smoother and not just sudden / rough*/
+    scroll-behavior: smooth;
+}
 body {
-    font-size: 16px;
+    font-size: 18px;
     background-color: #a4def9ff;
     font-family: sans-serif;
     color: #284b63ff;
@@ -25,11 +29,16 @@ p {
     line-height: 1.5em;
     margin-bottom: 1.5em;
 }
+a{
+    text-decoration: none;
+}
 img{
     width: 25%;
 }
 .imageprofile{
-    border: 10px solid #b38d97ff ;
+    border: 5px solid #b38d97ff ;
+    border-radius: 100%;
+    margin-left: 10%;
 }
 .heading1{
     font-size: 2em;
@@ -167,7 +176,7 @@ first class is the main flex container, defining everything for the items*/
 .column{
   display: flex;
   flex-direction: column;
-  width: 25%;    
+  width: 50%;    
 }
 /*artwork is the class for the image to set its propties, like how its display and size*/
 .artwork{
@@ -181,9 +190,10 @@ Turn the flex on, allow the flex box to work*/
     display: flex;
     padding: 2%;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
         
 }
+
 
 .alongsection{
     flex:1; 
@@ -194,13 +204,18 @@ Turn the flex on, allow the flex box to work*/
 footer.alongsection:last-child{
     text-align: right;
 }
+.main-content .alongsection:first-child{
+    text-align: right;
+    
+}
 .alongsection a{
     color: rgb(220, 241, 251);
 }
+
 .social{
     margin-top: 25%;
     margin-right: 2%;
-    width: 7%;
+    width: 10%;
     float: right
 }
 
@@ -223,6 +238,18 @@ blockquote{
     font-size: 30px;
 }
 
+.btop{    
+    text-align: center;
+    font-weight: bolder;
+    display: inline-block;
+    width: 10%;
+    text-decoration: none;
+    background-color: rgb(255, 241, 240);
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin-left: 44%;
+}
+
 /*Colour palet 
 --uranian-blue: #a4def9ff;
 --indigo-dye: #284b63ff;
@@ -232,7 +259,7 @@ blockquote{
 
 */
 
-@media screen and  (max-width: 610px ) {
+@media screen and  (max-width: 600px ) {
    /*all the a tag in nav but the first tag (which is home) change
    display to none and is no longer visable*/
    .navbar a:not(:first-child),.dropdown .dropbtn, #header .flex-footer a:not(:first-child), #header .donatebtn{
@@ -267,4 +294,28 @@ blockquote{
      display: block;
      width: 100%;
    }
+
+   footer .alongsection p{
+      font-size: 80%;
+  }
+  .inner-wrapper{
+      font-size: 70%;
+  }
+
+  blockquote, .quote{
+      font-size: 100%;
+  }
+  .btop{
+      padding: 2% 10%;
+      font-size: 80%;
+      margin-left: 35%;
+  }
+}
+@media screen and  (max-width: 450px ) {
+    footer .alongsection p{
+        font-size: 50%;
+    }
+    blockquote, .quote{
+        font-size: 80%;
+    }
 }
