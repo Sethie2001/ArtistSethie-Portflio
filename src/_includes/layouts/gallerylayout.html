@@ -8,30 +8,390 @@ layout: base
    
     </div>
 </div>
+<div id="Traditonal">
 <div class="artgallery">
     <div class="column">
-        <img src="{{images.one}}" alt="{{images.alt1}}" class="artwork">        
-        <img src="{{images.two}}" alt="images.alt2}}" class="artwork">
-        <img src="{{images.three}}" alt="{{images.alt3}}" class="artwork">  
-        <img src="{{images.four}}" alt="{{images.alt4}}" class="artwork">
-        <img src="{{images.five}}" alt="{{images.alt5}}" class="artwork">        
-        <img src="{{images.six}}" alt="{{images.alt6}}" class="artwork">
+        <a class="button" href="#trapopup1"><img src="{{images.one}}" alt="{{images.alt1}}" class="artwork"></a>     
+        <a class="button" href="#trapopup2"><img src="{{images.two}}" alt="{{images.alt2}}" class="artwork"></a>
+        <a class="button" href="#trapopup3"><img src="{{images.three}}" alt="{{images.alt3}}" class="artwork"></a>  
+        <a class="button" href="#trapopup4">><img src="{{images.four}}" alt="{{images.alt4}}" class="artwork"></a>
+        <a class="button" href="#trapopup5"><img src="{{images.five}}" alt="{{images.alt5}}" class="artwork"></a>  
+        <a class="button" href="#trapopup20"><img src="{{images.twenty}}" alt="{{images.alt20}}" class="artwork"></a>  
+        <a class="button" href="#trapopup21"><img src="{{images.twentyone}}" alt="{{images.alt21}}" class="artwork"></a>
+        <a class="button" href="#trapopup22"><img src="{{images.twentytwo}}" alt="{{images.alt22}}" class="artwork"></a>         
+        <a class="button" href="#trapopup28"><img src="{{images.twentyeight}}" alt="{{images.alt28}}" class="artwork"></a>
     </div>
     <div class="column">
-        <img src="{{images.seven}}" alt="{{images.alt7}}" class="artwork">
-        <img src="{{images.eight}}" alt="{{images.alt8}}" class="artwork">
-        <img src="{{images.nine}}" alt="{{images.alt9}}" class="artwork">
-        <img src="{{images.ten}}" alt="{{images.alt10}}" class="artwork">
-        <img src="{{images.eleven}}" alt="{{images.alt11}}" class="artwork">
-        <img src="{{images.twelve}}" alt="{{images.alt12}}" class="artwork">
+        <a class="button" href="#trapopup7"><img src="{{images.seven}}" alt="{{images.alt7}}" class="artwork"></a>
+        <a class="button" href="#trapopup8"><img src="{{images.eight}}" alt="{{images.alt8}}" class="artwork"></a>
+        <a class="button" href="#trapopup9"><img src="{{images.nine}}" alt="{{images.alt9}}" class="artwork"></a>
+        <a class="button" href="#trapopup10"><img src="{{images.ten}}" alt="{{images.alt10}}" class="artwork"></a>
+        <a class="button" href="#trapopup11"><img src="{{images.eleven}}" alt="{{images.alt11}}" class="artwork"></a>
+        <a class="button" href="#trapopup12"><img src="{{images.twelve}}" alt="{{images.alt12}}" class="artwork"></a>
+        <a class="button" href="#trapopup23"><img src="{{images.twentythree}}" alt="{{images.alt23}}" class="artwork"> </a> 
+        <a class="button" href="#trapopup24"><img src="{{images.twentyfour}}" alt="{{images.alt24}}" class="artwork"></a>
+        <a class="button" href="#trapopup25"><img src="{{images.twentyfive}}" alt="{{images.alt25}}" class="artwork"> </a>
     </div>
     <div class="column">   
-        <img src="{{images.thirteen}}" alt="{{images.alt13}}" class="artwork">
-        <img src="{{images.fourteen}}" alt="{{images.alt14}}" class="artwork">
-        <img src="{{images.fifteen}}" alt="{{images.alt15}}" class="artwork">
-        <img src="{{images.sixteen}}" alt="{{images.alt16}}" class="artwork">
-        <img src="{{images.seventeen}}" alt="{{images.alt17}}" class="artwork">
-        <img src="{{images.eighteen}}" alt="{{images.alt18}}" class="artwork">
-        <img src="{{images.nineteen}}" alt="{{images.alt19}}" class="artwork">
+        <a class="button" href="#trapopup13"><img src="{{images.thirteen}}" alt="{{images.alt13}}" class="artwork"></a>
+        <a class="button" href="#trapopup14"><img src="{{images.fourteen}}" alt="{{images.alt14}}" class="artwork"></a>
+        <a class="button" href="#trapopup15"><img src="{{images.fifteen}}" alt="{{images.alt15}}" class="artwork"></a>
+        <a class="button" href="#trapopup16"><img src="{{images.sixteen}}" alt="{{images.alt16}}" class="artwork"></a>
+        <a class="button" href="#trapopup17"><img src="{{images.seventeen}}" alt="{{images.alt17}}" class="artwork"></a>
+        <a class="button" href="#trapopup18"><img src="{{images.eighteen}}" alt="{{images.alt18}}" class="artwork"></a>
+        <a class="button" href="#trapopup19"><img src="{{images.nineteen}}" alt="{{images.alt19}}" class="artwork"> </a>             
+        <a class="button" href="#trapopup6"><img src="{{images.six}}" alt="{{images.alt6}}" class="artwork"></a>
+        <a class="button" href="#trapopup26"><img src="{{images.twentysix}}" alt="{{images.alt26}}" class="artwork"> </a> 
+        <a class="button" href="#trapopup27"><img src="{{images.twentyseven}}" alt="{{images.alt27}}" class="artwork"> </a>
     </div>
 </div>
+
+<!--Adding Info to popup-->
+<div id="trapopup1" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra1}}</h2>
+		<a class="close" href="">&times;</a>
+		<div class="content">
+			{{InfoartTra1}}
+			<!--Previous-->
+			<a class="nextprev" href="#trapopup27">&#8592;</a>
+			<!--Next-->
+			<a class="nextprev" href="#trapopup2">&#8594;</a>
+		</div>
+		
+	</div>
+</div>
+
+<div id="trapopup2" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra2}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra2}}
+			<!--Previous-->
+			<a class="nextprev" href="#trapopup1">&#8592;</a>
+			<!--Next-->
+			<a class="nextprev" href="#trapopup3">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup3" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra3}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra3}}			
+			<!--Previous-->
+			<a class="nextprev" href="#trapopup2">&#8592;</a>
+			<!--Next-->
+			<a class="nextprev" href="#trapopup4">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup4" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra4}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra4}}			
+			<a class="nextprev" href="#trapopup3">&#8592;</a>
+			<a class="nextprev" href="#trapopup5">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup5" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra5}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra5}}		
+			<a class="nextprev" href="#trapopup4">&#8592;</a>
+			<a class="nextprev" href="#trapopup6">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup6" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra6}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra6}}		
+			<a class="nextprev" href="#trapopup5">&#8592;</a>
+			<a class="nextprev" href="#trapopup7">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup7" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra7}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra7}}		
+			<a class="nextprev" href="#trapopup6">&#8592;</a>
+			<a class="nextprev" href="#trapopup8">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup8" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra8}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra8}}					
+			<a class="nextprev" href="#trapopup7">&#8592;</a>
+			<a class="nextprev" href="#trapopup9">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup9" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra9}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra9}}		
+			<a class="nextprev" href="#trapopup8">&#8592;</a>
+			<a class="nextprev" href="#trapopup10">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup10" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra10}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra10}}		
+			<a class="nextprev" href="#trapopup9">&#8592;</a>
+			<a class="nextprev" href="#trapopup11">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup11" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra11}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra11}}
+			<a class="nextprev" href="#trapopup10">&#8592;</a>
+			<a class="nextprev" href="#trapopup12">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup12" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra12}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra12}}
+			<a class="nextprev" href="#trapopup11">&#8592;</a>
+			<a class="nextprev" href="#trapopup13">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup13" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra13}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra13}}
+			<a class="nextprev" href="#trapopup12">&#8592;</a>
+			<a class="nextprev" href="#trapopup14">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup14" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra14}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra14}}
+			<a class="nextprev" href="#trapopup13">&#8592;</a>
+			<a class="nextprev" href="#trapopup15">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup15" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra15}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra15}}
+			<a class="nextprev" href="#trapopup14">&#8592;</a>
+			<a class="nextprev" href="#trapopup16">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup16" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra16}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra16}}
+			<a class="nextprev" href="#trapopup15">&#8592;</a>
+			<a class="nextprev" href="#trapopup17">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup17" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra17}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra17}}
+			<a class="nextprev" href="#trapopup16">&#8592;</a>
+			<a class="nextprev" href="#trapopup18">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup18" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra18}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra18}}
+			<a class="nextprev" href="#trapopup17">&#8592;</a>
+			<a class="nextprev" href="#trapopup19">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup19" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra19}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra19}}
+			<a class="nextprev" href="#trapopup18">&#8592;</a>
+			<a class="nextprev" href="#trapopup20">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup20" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra20}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra20}}
+			<a class="nextprev" href="#trapopup19">&#8592;</a>
+			<a class="nextprev" href="#trapopup21">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup21" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra21}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra21}}
+			<a class="nextprev" href="#trapopup20">&#8592;</a>
+			<a class="nextprev" href="#trapopup22">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup22" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra22}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra22}}
+			<a class="nextprev" href="#trapopup21">&#8592;</a>
+			<a class="nextprev" href="#trapopup23">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="trapopup23" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra23}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra23}}
+			<a class="nextprev" href="#trapopup22">&#8592;</a>
+			<a class="nextprev" href="#trapopup24">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="trapopup24" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra24}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra24}}
+			<a class="nextprev" href="#trapopup23">&#8592;</a>
+			<a class="nextprev" href="#trapopup25">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup25" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra25}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra25}}
+			<a class="nextprev" href="#trapopup24">&#8592;</a>
+			<a class="nextprev" href="#trapopup26">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup26" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra26}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra26}}
+			<a class="nextprev" href="#trapopup25">&#8592;</a>
+			<a class="nextprev" href="#trapopup27">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup27" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra27}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra27}}
+			<a class="nextprev" href="#trapopup26">&#8592;</a>
+			<a class="nextprev" href="#trapopup28">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+<div id="trapopup28" class="overlay">
+	<div class="popup">
+		<h2>{{HeadingTra28}}</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			{{InfoartTra28}}
+			<a class="nextprev" href="#trapopup27">&#8592;</a>
+			<a class="nextprev" href="#trapopup1">&#8594;</a>
+		</div>
+	</div>
+</div>
+
+

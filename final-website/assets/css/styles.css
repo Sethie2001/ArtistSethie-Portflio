@@ -195,7 +195,14 @@ first class is the main flex container, defining everything for the items*/
 .column{
   display: flex;
   flex-direction: column;
-  width: 50%;    
+  width: 50%;
+}
+#Traditonal .artgallery{
+    gap: 10px;
+    padding: 10px;
+}
+#Traditonal .column{
+    gap: 10px;
 }
 /*artwork is the class for the image to set its propties, like how its display and size*/
 .artwork{
@@ -203,6 +210,8 @@ first class is the main flex container, defining everything for the items*/
     width: 100%;
     transition: .3s;
 }
+
+
 /* This flex box allows the item to display next to each other
 Turn the flex on, allow the flex box to work*/
 .flex-along{
@@ -272,6 +281,10 @@ blockquote{
     border-radius: 10px;
     margin-left: 44%;
 }
+
+
+
+
 
 
 @media screen and  (max-width: 700px ) {
