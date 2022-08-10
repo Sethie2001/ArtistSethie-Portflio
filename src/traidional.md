@@ -4,94 +4,66 @@ title: Artist Sethie - Traditional Art
 
 images:
     one: ../assets/images/traditional/traimage1.jpg
-    alt1: Rise in sea level a Water-Colour drawing
   
     two: ../assets/images/traditional/traimage3.JPG
-    alt2: lol
     
     three: ../assets/images/traditional/traimage21.JPG
-    alt3:
 
     four: ../assets/images/traditional/traimage12.JPG
-    alt4:
 
     five: ../assets/images/traditional/traimage27.JPG
-    alt5:
 
-    twenty: ../assets/images/traditional/traimage28.JPG
-    alt20:
+    six: ../assets/images/traditional/traimage28.JPG
 
-    twentyone: ../assets/images/traditional/traimage19.PNG
-    alt21:
+    seven: ../assets/images/traditional/traimage19.jpg
 
-    twentytwo: ../assets/images/traditional/traimage16.jpg
-    alt22: Art prints from the theme of protest art. This work talk about war spending
+    eight: ../assets/images/traditional/traimage16.jpg
    
-    twentyeight: ../assets/images/traditional/traimage9.jpg
-    alt28: 
+    nine: ../assets/images/traditional/traimage9.jpg
 
    #second colum 
-    seven: ../assets/images/traditional/traimage2.jpg
-    alt7: lol
+    ten: ../assets/images/traditional/traimage2.jpg
 
-    eight: ../assets/images/traditional/traimage6.jpg
-    alt8: lol
+    eleven: ../assets/images/traditional/traimage6.jpg
 
-    nine: ../assets/images/traditional/traimage8.jpg
-    alt9:
+    twelve: ../assets/images/traditional/traimage8.jpg
 
-    ten: ../assets/images/traditional/traimage22.jpg
-    alt10:
+    thirteen: ../assets/images/traditional/traimage22.jpg
 
-    eleven: ../assets/images/traditional/traimage11.jpg
-    alt11:
+    fourteen: ../assets/images/traditional/traimage11.jpg
 
-    twelve: ../assets/images/traditional/traimage26.jpg
-    alt 12: 
+    fifteen: ../assets/images/traditional/traimage26.jpg
 
-    twentythree: ../assets/images/traditional/traimage24.jpg
-    alt23:
+    sixteen: ../assets/images/traditional/traimage24.jpg
 
-    twentyfour: ../assets/images/traditional/traimage15.jpg
-    alt24: A print with the theme of protest art
+    seventeen: ../assets/images/traditional/traimage15.jpg
 
-    twentyfive: ../assets/images/traditional/traimage18.JPG
-    alt25:
+    eighteen: ../assets/images/traditional/traimage18.JPG
 
    #thrid colum
    
-    thirteen: ../assets/images/traditional/traimage4.JPG
-    alt13: 
+    nineteen: ../assets/images/traditional/traimage4.JPG
 
-    fourteen: ../assets/images/traditional/traimage7.jpg
-    alt14:
+    twenty: ../assets/images/traditional/traimage7.jpg
 
-    fifteen: ../assets/images/traditional/traimage5.jpg
-    alt15: lol
+    twentyone: ../assets/images/traditional/traimage5.jpg
 
-    sixteen: ../assets/images/traditional/traimage20.jpg
-    alt16: A Painting of my father
+    twentytwo: ../assets/images/traditional/traimage20.jpg
    
-    seventeen: ../assets/images/traditional/traimage23.jpg
-    alt17: A painting of grandprents 
+    twentythree: ../assets/images/traditional/traimage23.jpg
 
-    eighteen: ../assets/images/traditional/traimage10.jpg
-    alt18:
-
-    nineteen: ../assets/images/traditional/traimage13.jpg
-    alt19: 
-
-    six: ../assets/images/traditional/traimage14.jpg
-    alt6: 
-
-    twentysix: ../assets/images/traditional/traimage25.jpg
-    alt26: 
-
-    twentyseven: ../assets/images/traditional/traimage17.JPG 
-    alt27:        
+    twentyfour: ../assets/images/traditional/traimage10.jpg
     
-HeadingTra1: Rise in Water level, Part of collection
-InfoartTra1: lemon jo  lemop hso soisns sgsis sshs
+    twentyfive: ../assets/images/traditional/traimage13.jpg
+ 
+    twentysix: ../assets/images/traditional/traimage14.jpg
+
+    twentyseven: ../assets/images/traditional/traimage25.jpg   
+
+    twentyeight: ../assets/images/traditional/traimage17.JPG            
+    
+HeadingTra1: Rise in Water level, Mix Medium Collection 1
+InfoartTra1: This work is the first peices of the mix medium collection. This work uses normal colour penceil and some watercolour penceil.
 
 HeadingTra2: Emotion, Face dived in emotion, Acylric paint
 InfoartTra2: Artwork complted during my Year 11 and 12 years at high school.
@@ -102,53 +74,53 @@ InfoartTra3: A paint that I completed in my personal time as a gift
 HeadingTra4: A Still Life of a Single Leaf, Still Life Collection
 InfoartTra4: A Artwork I completed during my studies at high school into still life drawing.
 
-HeadingTra5: A Drawing of a Whole, and cuted watermelon
+HeadingTra5: A Drawing of a Whole, and cut watermelon
 InfoartTra5: This was a drawing done in my personal time to keep doing still life type drawing.
 
-HeadingTra6:
-InfoartTra6:
+HeadingTra6: A Drawing of a Unicorn done in Posca Marker on a frisbee
+InfoartTra6: This personal drawing done to brighten up the frisbee and add my own flare to the object.
 
-HeadingTra7:
-InfoartTra7:
+HeadingTra7: A Drawing of Ahsoka Tano from star wars
+InfoartTra7: A personal fan art of one of my favorite star wars characters.
 
-HeadingTra8:
-InfoartTra8:
+HeadingTra8: Protest Art Print on Fabric, 'Stop Spending on War'
+InfoartTra8: A print that I worked on during Year 11 on the Theme of protest Art. I decide to do my on the spending on war.
 
-HeadingTra9:
-InfoartTra9:
+HeadingTra9: A landscape drawing using Pen and a section of watercolour
+InfoartTra9: A work complted during Year 11 or 12
 
-HeadingTra10:
-InfoartTra10:
+HeadingTra10: Polution Theme Painting, Mix Medium Collection 2
+InfoartTra10: This work is the secord peices of the mix medium collection. This work uses acrylic paint to create this painting.
 
-HeadingTra11:
-InfoartTra11:
+HeadingTra11: A Landscape of the Shoalhaven River
+InfoartTra11: This painting was created on a Art Campl in Year 12, we were task to create a painting of the scenery that inclueded the Shoalhaven River
 
-HeadingTra12:
-InfoartTra12:
+HeadingTra12: Self Portrait of Myself, Acrylic Paints
+InfoartTra12: A painting created during high school of myself. 
 
-HeadingTra13:
-InfoartTra13:
+HeadingTra13: A Painting of a Family Member, Paints
+InfoartTra13: 
 
-HeadingTra14:
+HeadingTra14: A Still Life of a Stick with leafs, Still Life Collection
 InfoartTra14:
 
-HeadingTra15:
+HeadingTra15: Drawing of Train using Copic Marker Artwork 
 InfoartTra15:
 
-HeadingTra16:
+HeadingTra16: Drawing of Watermelon on plate with flower
 InfoartTra16:
 
-HeadingTra17:
+HeadingTra17: Protest Art Print; Equal Rights
 InfoartTra17:
 
-HeadingTra18:
+HeadingTra18: Still Life Penciel Sketch of a Orange
 InfoartTra18:
 
 HeadingTra19:
 InfoartTra19:
 
-HeadingTra20: A Drawing of a Unicorn done in Posca Marker on a frisbee
-InfoartTra20: This personal drawing done to brighten up the frisbee and add my own flare to the object.
+HeadingTra20: 
+InfoartTra20: 
 
 HeadingTra21:
 InfoartTra21:
