@@ -15,6 +15,7 @@ to link to extrnal css, etc -->
 <!-- load our main stylesheet -->
 <link rel="stylesheet" href="/assets/css/styles.css">
 <link rel="stylesheet" href="/assets/css/popup.css">
+<link rel="stylesheet" href="/assets/css/videosytle.css">
 <script src="/assets/js/script.js"></script>
 
 <!-- you could add favicons etc here -->
@@ -52,12 +53,16 @@ full-->
                 </div>
         </div>                             
         <div class = "dropdown">
-        <button class="dropbtn">Films</button>
+        <button class="dropbtn">Videos (Animation & Film)</button>
             <div class="dropdown-content">
                 <a href="/Animation">Animation</a>
                 <a href="/livefilm">Live Action</a>
-            </div>
+            </div>            
          </div>
+       
+        <a href="/everything">Everything Else</a>
+           
+        
          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
@@ -66,17 +71,63 @@ full-->
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             
-            <!--This is the basic layout for the rest of the pages of the site
-and getting all the main conponets from base html-->
+            <!--A slightly different layout for the about page.
+allowing for images-->
 <div class="main-content">
-    <div class="inner-wrapper">
-  
-        <h1>Film Making</h1>
+    <div class="inner-wrapper">        
+    <h1>Film Making</h1>
 <p>During my University Studies, I completed some film production units. Shown here are some of the films and documentry I created in these units</p>
 
-   
     </div>
+    <h2 class="showreeltext">Current Film Showreel</h2>
+    <iframe src="https://www.youtube.com/embed/" class="showreelvideo"></iframe>
 </div>
+    <div class="filmheadingflex">
+        <div class="textmiddle"></div>
+        <div class="hleft">Films That I created </div>
+        <div class="hright">Film I Helped Created </div>
+    </div>
+    <div class="videoflex">
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+        <iframe src="https://www.youtube.com/embed/4K1iyF_tE_w"></iframe>
+       
+            <h2>Filmic Essay</h2>
+            <p>A short film on a scefic topic</p>
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">  
+            <iframe src="https://www.youtube.com/embed/njmNF-h0G9Q"></iframe>
+            <h2>Erindale brick banks</h2>
+            <p>Documentry on the historical location</p> 
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/9AlPPJM8Qok"></iframe>           
+                <h2>Voice of God - The Invasion</h2>
+                <p>A Univesity assessment peices</p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/a7oUTAi8Jgg"></iframe>
+            <h2>The Rhythm of Lockdown</h2>
+             <p>Poetic Documentry</p> 
+        </div>
+
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/LIfsd3ia0ks"></iframe>           
+                <h2>All shorts from my First Film Unit</h2>
+                <p>Everything here was edited by Me, but some were film with other people</p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/bCaOpMCqnNw"></iframe>
+            <h2>Love & Addiction - Short Film</h2>
+             <p>A fictional Film</p> 
+        </div>
+        
+    </div>    
+
             
             <a href="#" class="btop">Back To Top</a>
     </main>

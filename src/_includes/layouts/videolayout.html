@@ -1,0 +1,57 @@
+---
+layout: base
+---
+<!--A slightly different layout for the about page.
+allowing for images-->
+<div class="main-content">
+    <div class="inner-wrapper">        
+    {{ content }}
+    </div>
+    <h2 class="showreeltext">{{animationshowreel}}</h2>
+    <iframe src="{{showreel}}" class="showreelvideo"></iframe>
+</div>
+    <div class="filmheadingflex">
+        <div class="textmiddle">{{videotitle}}</div>
+        <div class="hleft">{{vtitleleft}} </div>
+        <div class="hright">{{vtitleright}} </div>
+    </div>
+    <div class="videoflex">
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+        <iframe src="{{clip.one}}"></iframe>
+       
+            <h2>{{cliptext.title1}}</h2>
+            <p>{{cliptext.para1}}</p>
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">  
+            <iframe src="{{clip.two}}"></iframe>
+            <h2>{{cliptext.title2}}</h2>
+            <p>{{cliptext.para2}}</p> 
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+            <iframe src="{{clip.three}}"></iframe>           
+                <h2>{{cliptext.title3}}</h2>
+                <p>{{cliptext.para3}}</p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src="{{clip.four}}"></iframe>
+            <h2>{{cliptext.title4}}</h2>
+             <p>{{cliptext.para4}}</p> 
+        </div>
+
+        <div class="videoitem">
+            <iframe src="{{clip.five}}"></iframe>           
+                <h2>{{cliptext.title5}}</h2>
+                <p>{{cliptext.para5}}</p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src="{{clip.six}}"></iframe>
+            <h2>{{cliptext.title6}}</h2>
+             <p>{{cliptext.para6}}</p> 
+        </div>
+        
+    </div>    

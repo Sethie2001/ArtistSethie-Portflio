@@ -150,4 +150,6 @@ InfoartTra28:
 # Traditional Art
 Work shown here are works that I have completed throughout my life from school, uni and personal artwork I have done. The Artwork here are all the traditional medium have use to create Art. Click on the Image to gain more information about the Artwork.
 
-## My Artwork Collection - Traditional Medium
+ 
+
+

@@ -15,6 +15,7 @@ to link to extrnal css, etc -->
 <!-- load our main stylesheet -->
 <link rel="stylesheet" href="/assets/css/styles.css">
 <link rel="stylesheet" href="/assets/css/popup.css">
+<link rel="stylesheet" href="/assets/css/videosytle.css">
 <script src="/assets/js/script.js"></script>
 
 <!-- you could add favicons etc here -->
@@ -52,12 +53,16 @@ full-->
                 </div>
         </div>                             
         <div class = "dropdown">
-        <button class="dropbtn">Films</button>
+        <button class="dropbtn">Videos (Animation & Film)</button>
             <div class="dropdown-content">
                 <a href="/Animation">Animation</a>
                 <a href="/livefilm">Live Action</a>
-            </div>
+            </div>            
          </div>
+       
+        <a href="/everything">Everything Else</a>
+           
+        
          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
 
@@ -66,15 +71,81 @@ full-->
             <!-- STOP! Don't add anything more to the base template -->
             <!-- the content here is loaded through the homepage template -->
             
-            <!--This is the basic layout for the rest of the pages of the site
-and getting all the main conponets from base html-->
+            
+<!--A slightly different layout for the about page.
+allowing for images-->
 <div class="main-content">
-    <div class="inner-wrapper">
-  
-        <h1>Animation</h1>
+    <div class="inner-wrapper">        
+    <h1>Animation</h1>
 <p>This page is to show off my animation content</p>
 
-   
+    </div>
+    <h2 class="showreeltext">Current Animation Showreel</h2>
+    <iframe src="https://www.youtube.com/embed/hOVlvpTP7XQ" class="showreelvideo"></iframe>
+</div>
+    <div class="filmheadingflex">
+        <div class="textmiddle">Animation that I have Created</div>
+        <div class="hleft"> </div>
+        <div class="hright"> </div>
+    </div>
+    <div class="videoflex">
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+        <iframe src="https://www.youtube.com/embed/P_ZBii6qRTY"></iframe>
+       
+            <h2>The Chopstick Journey - A Short Animated Film</h2>
+            <p></p>
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">  
+            <iframe src="https://www.youtube.com/embed/ouRRWOt750E"></iframe>
+            <h2>The Way of Learning Animation - A Short Animated Film</h2>
+            <p></p> 
+        </div>
+        <!--Clip Section Row Start-->
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/ZDd1ESQJYI0"></iframe>           
+                <h2>Animation Pratice - Walk Cycle, Idle Animation, and Creative Animation</h2>
+                <p></p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/QLmS0i16Vm8"></iframe>
+            <h2>Logo animation for Artist Sethie</h2>
+             <p></p> 
+        </div>
+
+        <div class="videoitem">
+            <iframe src="https://www.youtube.com/embed/HCbpUfXHicw"></iframe>           
+                <h2>Board Game Trailer</h2>
+                <p>The video use simple motion graphic / animation</p>  
+        </div>  
+        
+        <div class="videoitem">
+            <iframe src=""></iframe>
+            <h2></h2>
+             <p></p> 
+        </div>
+        
+    </div>    
+
+<div class="section2">
+    <div class="artgallery">
+        <div class="column">
+            <img src="../assets/images/image1.jpg" alt="3D model of a Ginza line train" class="artwork">        
+            <img src="../assets/images/3D/1chesse.png" alt="Model of Chesse (High School Project)" class="artwork">
+        </div>
+        <div class="column">
+            <img src="../assets/images/3D/2chess.png" alt="Model of Chess (High School Project)" class="artwork">  
+            <img src="../assets/images/3D/3choco.png" alt="Model of Chocolate bar" class="artwork">
+            <img src="../assets/images/3D/4dices.png" alt="Model of Dices (High School Project)" class="artwork"> 
+            <img src="../assets/images/3D/7rubix.png" alt="Model of Rubnix cube" class="artwork">
+        </div>
+        <div class="column">
+                  
+            <img src="../assets/images/3D/5train.png" alt="Rendered Image of Toy Train seet" class="artwork">
+            <img src="../assets/images/3D/6traindiff.png" alt="Rendered Image of Toy Train set, different angled" class="artwork">
+        </div>
     </div>
 </div>
             

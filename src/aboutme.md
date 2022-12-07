@@ -8,6 +8,11 @@ images:
 
 alt:
     text: Image of Artist sethie, a sketch
+
+file: /assets/images/resumeweb.pdf
+
+resumeheading: My Resume
+resumeparagra: Paragraph info ... lemon laro liqon lemon laro liqon lemon laro liqon lemon laro liqon lemon laro liqon
 ---
 # About Me  
 

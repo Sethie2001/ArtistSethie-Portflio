@@ -17,7 +17,6 @@ h1 {
 
 h2 {
     font-size: 1.6em;
-    float: left;
 }
 
 h3 {
@@ -60,6 +59,7 @@ main width of the page to be slightly smaller*/
 /*A new section for the page to split the background colour*/
 .section2{
     background-color: rgb(112, 190, 226);
+    margin-top: 2%;
     padding: 2%;
 }
 
@@ -278,9 +278,37 @@ blockquote{
     text-decoration: none;
     background-color: rgb(255, 241, 240);
     padding: 20px 20px;
+    margin-top: 2%;
     border-radius: 10px;
     margin-left: 44%;
+   
 }
+
+.pdfalign{
+    margin: 2%;
+}
+
+.resumetext{
+    float: right;
+    width: 45%;
+    
+}
+.resumetext p{
+    padding-top: 2%;
+}
+
+
+
+.flexother{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otheritem{
+    height: auto;
+    margin-bottom: 10px;
+}
+
 
 
 
