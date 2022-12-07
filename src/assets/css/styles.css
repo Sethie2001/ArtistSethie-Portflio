@@ -61,6 +61,7 @@ main width of the page to be slightly smaller*/
     background-color: rgb(112, 190, 226);
     margin-top: 2%;
     padding: 2%;
+    
 }
 
 /*Defining the header and footer background colour to be the same*/
@@ -301,12 +302,15 @@ blockquote{
 
 .flexother{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+    
 }
 .otheritem{
+    flex: 0 32%;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
 }
 
 
