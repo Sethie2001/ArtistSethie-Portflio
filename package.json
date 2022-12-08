@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "create": "--save-dev @11ty/eleventy",
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "build" : "eleventy",
+    "start" : "eleventy --serve"
   },
   "keywords": [],
   "author": "",
@@ -15,4 +14,6 @@
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-navigation": "^0.3.2"
   }
+  
 }
+
