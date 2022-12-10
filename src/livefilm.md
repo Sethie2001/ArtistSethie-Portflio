@@ -17,23 +17,23 @@ clip:
     six: https://www.youtube.com/embed/bCaOpMCqnNw
 cliptext:
     title1: Filmic Essay
-    para1: A short film on a scefic topic
+    para1: A Short Filmic Essay on Identity made during Covid and for University.
     
     title2: Erindale brick banks
-    para2: Documentry on the historical location 
+    para2: A Documentry about the History and Current status of a local Skatepark in Canberra. A Documentry made for University and to bring more notice to this historical skatepark in the local region. 
 
     title3: Voice of God - The Invasion 
-    para3: A Univesity assessment peices 
+    para3: A Short Film using a Narrator to trick the audince to believe something else
 
     title4: The Rhythm of Lockdown 
-    para4: Poetic Documentry 
+    para4: A Short Poetic Documentry showing the repeart of life during Lockdown and how everything feels the same.
 
     
     title5: All shorts from my First Film Unit
-    para5: Everything here was edited by Me, but some were film with other people
+    para5: This Show all the Short workshop activites that I created while doing some film units at University. All the Clips here were edited by me but filmed in groups.
 
     title6: Love & Addiction - Short Film
-    para6: A fictional Film 
+    para6: A Scripted Short film I created with small group. We were task to create a short film about something. I Edited and wrote the story of the film.
 ---
 # Film Making
 During my University Studies, I completed some film production units. Shown here are some of the films and documentry I created in these units
