@@ -13,10 +13,10 @@ clip:
     five: https://www.youtube.com/embed/HCbpUfXHicw
 cliptext:
     title1: The Chopstick Journey - A Short Animated Film
-    para1: 
+    para1:  A Short Story about about a one halve of a chopstick trying to get back to it's other halve. This Animation was done for my first Animation Unit at University.
     
     title2:  The Way of Learning Animation - A Short Animated Film
-    para2: 
+    para2: My final project for digital media at the University of Canberra where I created a story showing the stage of how alot people learn animation by starting with a boucing ball animation, to walk cycle, to action animation. 
 
     title3:  Animation Pratice - Walk Cycle, Idle Animation, and Creative Animation 
     para3: 
