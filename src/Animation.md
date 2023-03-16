@@ -11,6 +11,8 @@ clip:
     three: https://www.youtube.com/embed/ZDd1ESQJYI0
     four: https://www.youtube.com/embed/QLmS0i16Vm8
     five: https://www.youtube.com/embed/HCbpUfXHicw
+    six: https://www.youtube.com/embed/8deWoUMTKlI
+
 cliptext:
     title1: The Chopstick Journey - A Short Animated Film
     para1:  A Short Story about about a one halve of a chopstick trying to get back to it's other halve. This Animation was done for my first Animation Unit at University.
@@ -26,6 +28,9 @@ cliptext:
 
     title5: Board Game Trailer 
     para5: The video use simple motion graphic / animation 
+
+    title6: iOCR technology - How it is done?
+    para6: The video use motion graphic created in after effects. Some graphic created in photoshop. This video created for Job appication.
 
 images:
     first: ../assets/images/image1.jpg
