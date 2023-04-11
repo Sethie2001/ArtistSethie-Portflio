@@ -298,6 +298,17 @@ blockquote{
     padding-top: 2%;
 }
 
+.center{
+    width: 27%;
+    margin: 0 auto;
+}
+.center h3{
+    text-align: center;
+    padding-top: 3%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
 
 
 .flexother{
