@@ -40,6 +40,7 @@ img{
 .imageprofile{
     /*Creating a round border for the image on about page
     border radius at 100% make so it a circle / oval*/
+    width: 80%;
     border: 5px solid #b38d97ff ;
     border-radius: 100%;
     margin-left: 10%;

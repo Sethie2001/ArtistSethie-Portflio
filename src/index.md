@@ -34,4 +34,4 @@ quoteauthor: "Vincent Van Gogh"
 ---
 
 # About the Artist
-I'm a Canberra born Artist and have studied Visual Art through high school every year (year 7 - 12) and currently studying a Bachlour of Art in Digital Media. I have worked in many medium throughout my life, some areas I have worked with in tradition art is Sketching, painting, scupture, etc. In other areas I have done digital art, animation software and film editing (primere pro, after effect, and Davinci Resolve). I dream to become a animator and create great animated film for people to see. [Read More...](/aboutme)
+Seth Arnould is a graduated digital media student from the University of Canberra who specializes in video editing, 3D modeling, and animation. Seth also has experience in 2D animation/motion graphics, sound design, web design, filmmaking (camera work and video editing), photography, basic programming in JavaScript and C#, and general media software like the Adobe Creative Suite. [Read More...](/aboutme)
