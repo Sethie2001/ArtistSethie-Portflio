@@ -331,14 +331,14 @@ blockquote{
 
 
 
-@media screen and  (max-width: 700px ) {
+@media screen and  (max-width: 800px ) {
 /*making so image is no longer center of flex box and
 now at the top of it. easier for phone user to see*/
 .flex-along{
     align-items:inherit;
 }
 }
-@media screen and  (max-width: 600px ) {
+@media screen and  (max-width: 800px ) {
    /*all the a tag in nav but the first tag (which is home) change
    display to none and is no longer visable*/
    .navbar a:not(:first-child),.dropdown .dropbtn, #header .flex-footer a:not(:first-child), #header .donatebtn{

@@ -51,6 +51,3 @@ images:
     alt8: Model of Rubnix cube
 
 ---
-
-# Animation
-This page is to show off my animation content 

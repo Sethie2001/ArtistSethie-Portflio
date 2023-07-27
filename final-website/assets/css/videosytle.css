@@ -1,63 +1,89 @@
-.videoflex{
+
+  .container {
     display: flex;
     flex-wrap: wrap;
-    padding: 2%;
-    justify-content: center;
-      
-}
-
-.videoitem{
-    width: 50%;
-    padding-bottom: 5%;
-    
-   
-}
-.videoitem:nth-child(2n-3){
-    background-color: rgb(80, 186, 235);
-}
-.videoitem:nth-child(2n){
-    background-color:rgb(76, 197, 253);
-}
-.videoitem iframe{
-    width: 70%;
-    height: 70%;
-    display:block;
+    justify-content: space-around;
     margin: 0 auto;
-
- 
-}
-
-.showreelvideo{
-    width: 560px;
-    height: 315px;
-    margin-left: 35%;
-    margin-bottom: 2%;
-}
-.showreeltext{
+    padding: 20px;
+  }
+  .showreelcontainer{
+    margin-bottom: 50px; 
+    width: 100%;
+    padding: 2px;
     text-align: center;
-    margin-bottom: 2%;
-}
-.filmheadingflex{
-   
+  }
+  .showreelcontainer iframe{
+    width: 50%;
+    height: 500px;
+    padding-top: 4px;
+    border: 0;
+    border-radius: 6px;
+  }
+  .heading-container {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    width: 100%;
+    text-align: center;
     font-weight: bolder;
-    font-size: 25px;
-    padding-bottom: 2%;
-    text-align: center;
-}
-.hleft{
     
-    float: left;
-    margin-left: 25%;
+  }
+  
+  .column {
+    flex-wrap: wrap;
+    width: 45%;
+    height: auto;
+    padding: 5px;
+  }
+  .column h1, .showreelcontainer h2{
+    text-align: center;
+    font-weight: bolder;
+  }
+  .column h2, p {
+    padding-top: 10px;
+  }
+
+  
+  .left-column {
+    background-color:  rgb(80, 186, 235); /* Change to your desired color */
+  }
+  
+  .right-column {
+    background-color: rgb(76, 197, 253); /* Change to your desired color */
+  }
+  
+  .box {
+    border: 1px solid #1d01a9;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    border-radius: 6px;
+  }
+  
+  @media screen and  (max-width: 800px ){  
+  .column h1{
+    font-size: medium;
+  }
+  .column h2,p{
+    font-size: small;
+  }
+  .column iframe {
+    width: 100%;
+    height: 150px;
+    border: 0;
+    border-radius: 6px;
+  }
+  .showreelcontainer iframe{
+    width: 50%;
+    height: 500px;
+
 }
-.hright{
-    float: right;
-    margin-right: 25%;
+  
 }
 
-@media screen and  (max-width: 700px ){
-    .videoflex{
-        
-    }
-}
 
 
