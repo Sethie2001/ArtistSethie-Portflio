@@ -289,6 +289,10 @@ blockquote{
 .pdfalign{
     margin: 2%;
 }
+.pdfalign iframe{
+    width: 50%;
+    height: 500px;
+}
 
 .resumetext{
     float: right;
@@ -334,6 +338,9 @@ blockquote{
 @media screen and  (max-width: 800px ) {
 /*making so image is no longer center of flex box and
 now at the top of it. easier for phone user to see*/
+body{
+    font-size: small;
+}
 .flex-along{
     align-items:inherit;
 }
