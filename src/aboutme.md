@@ -9,10 +9,10 @@ images:
 alt:
     text: Image of Artist sethie, a sketch
 
-file: /assets/images/resume-web.pdf
+file: 
 
-resumeheading: My Resume
-resumeparagra: Thank you for taking the time to visit my portfolio. For more information about my professional experience, education, and skills, I encourage you to take a look at my resume. I have included a comprehensive overview of my qualifications and accomplishments, and I believe that it will give you a better understanding of how I can contribute to a company.
+resumeheading: Resume Coming Back Soon 
+resumeparagra: Please contact me through contact me Page
 ---
 # About Me  
 
