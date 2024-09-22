@@ -9,3 +9,7 @@ function myFunction() {
       }
     
     }
+
+    function message(){
+      document.getElementById("thanks").innerHTML = "Thanks for your Message"
+    }

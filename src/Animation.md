@@ -3,8 +3,7 @@ layout: layouts/3dlayout
 title: Artist Sethie - Animation
 
 videotitle: Animation that I have Created
-animationshowreel: Current Animation Showreel
-showreel: https://www.youtube.com/embed/hOVlvpTP7XQ
+
 clip:
     one: https://www.youtube.com/embed/P_ZBii6qRTY
     two: https://www.youtube.com/embed/ouRRWOt750E

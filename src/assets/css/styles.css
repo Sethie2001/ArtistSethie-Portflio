@@ -82,7 +82,16 @@ footer {
 .logotext h1{
     font-weight: bold;
     display: block;
-    font-size: 1em;
+    font-size: 2.5em;
+    
+}
+.logotext p{
+    font-size: 1.5em;
+}
+.logotext hr{
+    width: 20%;
+    border-width: 1px;
+    border-color: lightskyblue;
     
 }
 .logoimg{   
@@ -91,10 +100,10 @@ footer {
 /*Setting the main image background for the homepage*/
 .imgbackground{
     background-image: url(../images/Backcan.JPG);
-    height: 600px;
+    height: 450px;
     /*Postioning the center of image to be where it start to display
     Making sure image also doesn't repeat and the image cover the site*/
-    background-position: center;
+    background-position:right;
     background-repeat: no-repeat;   
     background-size: cover;
 }
@@ -103,10 +112,10 @@ footer {
     text-align: center;
     position: absolute;
     /*aligning the text to be center of the page*/
-    top: 60%;
-    left: 50%;
+    top: 80%;
+    left: 20%;
     /*setting the size of the background color / box*/
-    transform: translate(-50%); 
+    
     color:#ffba08ff ;
     background-color: rgb(40, 75, 99, 0.5);
     font-size: 2em;
@@ -330,8 +339,37 @@ blockquote{
 }
 
 
+#textbox, #smalltext{
+    
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid ;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
 
+
+
+.split {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 5%;
+  }
+
+  .column {
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+  
+  /* Control the right side */
 
 
 
@@ -343,7 +381,10 @@ body{
 }
 .flex-along{
     align-items:inherit;
+
 }
+
+
 }
 @media screen and  (max-width: 800px ) {
    /*all the a tag in nav but the first tag (which is home) change
@@ -402,8 +443,13 @@ body{
   }
   
   .hero{
-      top:100%;
+      top:50%;
+      left: 25%;
       font-size: 100%;
+  }
+  .imgbackground{
+    height:150px;
+    background-position:top;
   }
 }
 /*Slight change for even smaller screen*/
