@@ -32,9 +32,9 @@
     flex-wrap: wrap;
     width: 45%;
     height: auto;
-    padding: 5px;
+    padding: 1%;
   }
-  .column h1, .showreelcontainer h2{
+  .left-column h1,.right-column h1, .showreelcontainer h2{
     text-align: center;
     font-weight: bolder;
   }
@@ -50,6 +50,8 @@
   .right-column {
     background-color: rgb(76, 197, 253); /* Change to your desired color */
   }
+ 
+
   
   .box {
     border: 1px solid #1d01a9;

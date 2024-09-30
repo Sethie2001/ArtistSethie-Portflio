@@ -11,8 +11,7 @@ alt:
 
 file: 
 
-resumeheading: Resume Coming Back Soon 
-resumeparagra: Please contact me through contact me Page
+
 ---
 # About Me  
 

@@ -291,13 +291,14 @@ blockquote{
    
 }
 
-.pdfalign{
-    margin: 2%;
-}
+
 .pdfalign iframe{
-    width: 50%;
-    height: 500px;
+    width: 100%;
+    height: 600px;
 }
+
+
+
 
 .resumetext{
     float: right;
@@ -337,12 +338,15 @@ blockquote{
 
  #smalltext, #textbox{
     
-    width: 100%;
-    padding: 10%;
+    width: 200%;
+    padding: 5%;
     margin: 8px 0;
     border: 1px solid ;
     border-radius: 4px;
     box-sizing: border-box;
+}
+#textbox{    
+    height: 200px;
 }
 
 
@@ -366,9 +370,7 @@ button[type=submit] {
     
   }
 
-.right form {
-    text-align: right;
-}
+
 
 
 .split {    
