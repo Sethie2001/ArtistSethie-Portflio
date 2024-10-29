@@ -9,7 +9,7 @@ images:
 alt:
     text: Image of Artist sethie, a sketch
 
-file: 
+file: /assets/images/Resume_v01.pdf
 
 
 ---
