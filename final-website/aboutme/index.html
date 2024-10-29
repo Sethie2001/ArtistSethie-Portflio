@@ -88,8 +88,8 @@ allowing for images-->
     </div>    
 </div>
 <div class="section2">
-    <div class="split">
-        <div class="column">
+    <div class="flex-along">
+        <div class="alongsection">
             <h1>Resume</h1>
             <p>My Resume will soon return here</p>
             <div class="pdfalign">
@@ -97,28 +97,25 @@ allowing for images-->
                    
              </div>    
         </div>        
-        <div class="column right ">
+        <div class="alongsection">
             <h1>Contact Me</h1>
             <p>Fill in this form with  your inqurie and I will message back as soon as Possiable</p>
             
-
-
-
-  <form action="https://formspree.io/f/xvgpjajb" method="POST">
+ <form action="https://formspree.io/f/xvgpjajb" method="POST">
       
         <label>
           Your email:<br/>
-          <input type="email" name="email" id="smalltext" placeholder="Your Email">
+          <input type="email" name="email" class="smalltext" placeholder="Your Email">
         </label>
         <br/>
         <label>
           Subject: <br/>
-          <input name="subject" placeholder="Write the Subject of your message" id="smalltext" />
+          <input name="subject" placeholder="Write the Subject of your message" class="smalltext" />
         </label>
         <br/>
         <label>
           Your message:<br/>
-          <textarea name="message" id="textbox" placeholder="Write your message here..."></textarea>
+          <textarea name="message" class="textbox" placeholder="Write your message here..."></textarea>
         </label>
         <br/>
         <button type="submit">Send</button>

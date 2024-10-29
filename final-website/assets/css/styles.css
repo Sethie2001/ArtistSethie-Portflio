@@ -260,8 +260,7 @@ footer.alongsection:last-child{
 
 .quote{
     padding: 2% 0 2%;   
-    text-align: center;
-    font-size: 20px;    
+   
 }
 /*adding quote marks to the quote.
 either a open one at the start of the tag or close at the end*/
@@ -274,7 +273,9 @@ blockquote::before {
 
 blockquote{
     quotes: "“" "”" "‘" "’";
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 
 /*back to top button css*/
@@ -337,16 +338,15 @@ blockquote{
 }
 
 
- #smalltext, #textbox{
+ .smalltext, .textbox{
     
     width: 100%;
     padding: 5%;
     margin: 8px 0;
     border: 1px solid ;
     border-radius: 4px;
-    box-sizing: border-box;
 }
-#textbox{    
+.textbox{    
     height: 200px;
 }
 
@@ -390,8 +390,15 @@ button[type=submit] {
     margin: 8px 0;
     box-sizing: border-box;
   }
+ 
 
-  
+  .section2 iframe{
+    display: block;
+    margin: 0 auto;
+   height: 540px;
+   width: 960px;
+      
+  }
   
   /* Control the right side */
 

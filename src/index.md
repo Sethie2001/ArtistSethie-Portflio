@@ -27,11 +27,11 @@ images:
     alt7: Starry night
 
 #the text for below the image gallery 
-quote: "I dream my painting and I paint my dream."
-quoteauthor: "Vincent Van Gogh"
+quote: "Crafting, and visualizing stories by shaping narratives and bringing ideas through cameras and visualize the story through previs"
+quoteauthor: ""
 
 #below is the main content part for the home page
 ---
 
 # About the Artist
-Seth Arnould is a graduated digital media student from the University of Canberra who specializes in video editing, 3D modeling, and animation. Seth also has experience in 2D animation/motion graphics, sound design, web design, filmmaking (camera work and video editing), photography, basic programming in JavaScript and C#, and general media software like the Adobe Creative Suite. [Read More...](/aboutme)
+Seth Arnould is currently studying at the UTS Animal Logic Academy, focusing on Layout and Previs. Their goal is to become a Previs/Layout Artist, combining their passion for camera work and storytelling in animation. [Read More...](/aboutme)
