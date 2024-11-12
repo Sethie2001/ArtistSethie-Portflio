@@ -13,8 +13,8 @@
     text-align: center;
   }
   .showreelcontainer iframe{
-    width: 50%;
-    height: 500px;
+    height: 540px;
+    width: 960px;
     border: 0;
     border-radius: 6px;
   }
@@ -72,6 +72,19 @@
   .right-column .pdfalign{
     background-color:white;
   }
+  @media screen and  (max-width: 1450px ){  
+    .showreelcontainer iframe{
+      height: calc(540px / 2);
+      width: calc(960px / 2);
+    }
+  
+    .alongsection iframe{
+      display: block;
+      margin: 0 auto;
+      height: 540px;
+      width: calc(960px / 2);      
+    }
+  }
   
   @media screen and  (max-width: 800px ){  
   .column h1{
@@ -86,12 +99,13 @@
     border: 0;
     border-radius: 6px;
   }
-  .showreelcontainer iframe{
-    width: 50%;
-    height: 500px;
-
-}
-  
+  .alongsection iframe{
+    display: block;
+    margin: 0 auto;
+    height: 540px;
+    width: calc(960px / 3);
+ 
+  }
 }
 
 

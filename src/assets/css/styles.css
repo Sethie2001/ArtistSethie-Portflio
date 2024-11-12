@@ -41,7 +41,7 @@ img{
     /*Creating a round border for the image on about page
     border radius at 100% make so it a circle / oval*/
     
-    height: 10%;
+    height: 100%;
     border: 5px solid #b38d97ff ;
     border-radius: 100%;
     margin-left: 10%;
@@ -399,6 +399,8 @@ button[type=submit] {
    width: 960px;
       
   }
+
+ 
   
   /* Control the right side */
 
@@ -456,6 +458,7 @@ body{
    /*Setting the text size and img size to be better on phone screen*/
    .main-content .alongsection{
        font-size: 50%;
+       padding: 3%;
    }
    footer .alongsection p{
       font-size: 80%;
@@ -474,6 +477,14 @@ body{
       margin-left: 35%;
   }
   
+  
+  .section2 iframe{
+   
+   height: calc(540px / 2);
+   width: calc(960px / 2);
+  }
+
+ 
   
   .imgbackground{
     height:150px;
@@ -497,6 +508,7 @@ body{
     .logotext h1{
         font-size: 90%;
     }
+  
 }
 
 @media screen and  (max-width: 420px ){
