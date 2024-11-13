@@ -33,14 +33,11 @@ a{
     text-decoration: none;
 }
 /*Setting the basic image to be halve the orignal size*/
-img{
-    width: 50%;
-}
 
 .imageprofile{
     /*Creating a round border for the image on about page
     border radius at 100% make so it a circle / oval*/
-    
+     flex: 1 1 auto;
     height: 100%;
     border: 5px solid #b38d97ff ;
     border-radius: 100%;
@@ -295,6 +292,7 @@ blockquote{
 
 
 .pdfalign iframe{
+    flex: 1 1 auto;
     width: 100%;
     height: 600px;
 }
@@ -392,7 +390,7 @@ button[type=submit] {
   }
  
 
-  .section2 iframe{
+  .Showreelsize iframe{
     display: block;
     margin: 0 auto;
    height: 540px;
@@ -478,7 +476,7 @@ body{
   }
   
   
-  .section2 iframe{
+  .Showreelsize iframe{
    
    height: calc(540px / 2);
    width: calc(960px / 2);
@@ -515,7 +513,7 @@ body{
     .hero{       
         font-size: 1.5em;
     }
-
+   
    
 
 }
