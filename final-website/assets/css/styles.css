@@ -245,6 +245,8 @@ footer.alongsection:last-child{
 .alongsection a{
     color: rgb(220, 241, 251);
 }
+
+
 /*Setting location and size of social button*/
 .social{
     margin-top: 25%;
@@ -252,6 +254,7 @@ footer.alongsection:last-child{
     width: 10%;
     float: right
 }
+
 
 
 .quote{
@@ -334,9 +337,33 @@ blockquote{
     margin-bottom: 2%;
 }
 
-
- .smalltext, .textbox{
+.flexreel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center ;
     
+}
+
+.reelitem{
+  width: 48%;
+  height: 100%;
+  margin: 1%;
+  text-align: center;
+  
+}
+
+.reelitem iframe{    
+    width: 100%;
+    height: 350px;
+}
+
+.reelitem h2{
+    margin: 2%;
+    font-weight: bold;
+}
+
+ .smalltext, .textbox{    
     width: 100%;
     padding: 5%;
     margin: 8px 0;
