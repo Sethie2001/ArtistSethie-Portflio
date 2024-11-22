@@ -296,7 +296,7 @@ blockquote{
 .pdfalign iframe{
     flex: 1 1 auto;
     width: 100%;
-    height: 600px;
+    height: 650px;
 }
 
 
@@ -359,12 +359,33 @@ blockquote{
 }
 
 .reelitem h2{
+    padding: 2%;
+}
+
+.flexpreviscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;      
     margin: 2%;
+}
+.previsitem{
+    flex: 0 32%;    
+    background-color: aqua;
+}
+.previsitem iframe{
+    width: 600;
+    padding: 1%;
+}
+
+.headdingtext {
+    margin-top: 1%;
+    text-align: center;
     font-weight: bold;
 }
 
+
  .smalltext, .textbox{    
-    width: 100%;
+    width: 400px;
     padding: 5%;
     margin: 8px 0;
     border: 1px solid ;
@@ -386,7 +407,7 @@ label{
 button[type=submit] {
    
     background-color: #041020;   
-    padding: 2% 25%; 
+    padding: 3% 30%; 
     color: white;
     border: none;
     border-radius: 4px;
@@ -517,6 +538,12 @@ body{
   .imageprofile{
     height: 300px;
   }
+  .smalltext, .textbox{    
+    width: 250px;
+
+}
+
+
 }
 /*Slight change for even smaller screen*/
 @media screen and  (max-width: 450px ) {
@@ -542,6 +569,12 @@ body{
     .hero{       
         font-size: 1.5em;
     }
+    .smalltext, .textbox{    
+        width: 150px;
+    
+    }
+    
+     
    
    
 
