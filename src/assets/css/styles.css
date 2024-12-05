@@ -445,8 +445,9 @@ button[type=submit] {
   .Showreelsize iframe{
     display: block;
     margin: 0 auto;
-   height: 540px;
-   width: 960px;
+    width: 50%;
+    height: 550px;
+ 
       
   }
 
