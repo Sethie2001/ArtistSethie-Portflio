@@ -27,10 +27,10 @@ images:
     alt7: Starry night
 
 #the text for below the image gallery 
-quote: "Crafting, and visualizing stories by shaping narratives and bringing ideas through cameras and visualize the story through previs"
-quoteauthor: ""
+quote: "Crafting, and visualising stories by shaping narratives and bringing ideas through cameras and visualise the story through previs and camera"
 
-showreel: https://www.youtube.com/embed/aX4UMgBYd-o
+
+showreel: https://www.youtube.com/embed/hY4N3pEhcCQ
 
 #below is the main content part for the home page
 ---
