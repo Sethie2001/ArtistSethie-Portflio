@@ -36,4 +36,4 @@ showreel: https://www.youtube.com/embed/hY4N3pEhcCQ
 ---
 
 # About the Artist
-Seth Arnould is currently studying at the UTS Animal Logic Academy, focusing on Layout and Previs. Their goal is to become a Previs/Layout Artist, combining their passion for camera work and storytelling in animation. [Read More...](/aboutme)
+Seth Arnould has graduated from the UTS Animal Logic Academy, where they focused on Layout and Previs. Their goal is to become a Previs/Layout Artist in the animation indutry but also develop more into VFX Layout, and to contuine to combine their passion for camera work and storytelling. At the academy, Seth has honed their skills to excel in this field. [Read More...](/aboutme)
