@@ -192,14 +192,11 @@ main {
 first class is the main flex container, defining everything for the items*/
 .artgallery{
     display: flex;
-    padding: 2px;
     transition: .3s;
     justify-content: center;
 }
 .column{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
+    width: 10;
 }
 #Traditonal .artgallery{
     gap: 10px;
@@ -371,8 +368,17 @@ blockquote{
 .previsitem{
     flex: 0 32%;    
     background-color: rgb(139, 202, 231);    
-    padding: 10px;
+  
     margin-top: 2%;
+}
+.editorreel{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+.editorreel iframe{
+    width: 40%;
+    height:350px;
 }
 .previsitem iframe{
     width:90% ;
@@ -581,8 +587,10 @@ body{
     
     }
     
-     
+
+
    
    
 
 }
+
