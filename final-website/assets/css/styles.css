@@ -252,6 +252,7 @@ footer.alongsection:last-child{
 
 
 
+
 .quote{
     padding: 2% 0 2%;   
    
@@ -401,6 +402,7 @@ blockquote{
     border: 1px solid ;
     border-radius: 4px;
 }
+
 .textbox{    
     height: 200px;
 }
