@@ -37,9 +37,7 @@ a{
 .imageprofile{
     /*Creating a round border for the image on about page
     border radius at 100% make so it a circle / oval*/
-    height: 600px;
-    border: 5px solid #b38d97ff ;
-    border-radius: 100%;
+    height: 600px;    
     margin-left: 10%;
 }
 
@@ -363,13 +361,13 @@ blockquote{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
-    margin: 2%;
+  
 }
 .previsitem{
-    flex: 0 32%;    
+    flex: 0 29%;    
     background-color: rgb(139, 202, 231);    
-  
-    margin-top: 2%;
+    margin-top: 1%;
+    padding: 2%;
 }
 .editorreel{
     display: flex;

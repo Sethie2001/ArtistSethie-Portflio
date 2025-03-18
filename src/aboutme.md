@@ -4,7 +4,7 @@ title: Artist Sethie - About Me
 
 
 images:
-    image: /assets/images/person1.JPG
+    image: /assets/images/person1.png
 
 alt:
     text: Image of Artist sethie, a sketch
