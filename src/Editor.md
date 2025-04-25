@@ -25,6 +25,18 @@ cliptext:
     title6: Love & Addiction - Short Film (Edited by Me)
     para6: A Scripted Short film I created with small group. We were task to create a short film about something. I Edited and wrote the story of the film. (Some Filming also done by me)
 
+motion:
+    one: https://www.youtube.com/embed/HCbpUfXHicw
+    two: https://www.youtube.com/embed/8deWoUMTKlI
+
+motiontxt:
+    title1: Print & Play Board Game Trailer (ANDANGERED)
+    para1: In a Game Design course at the University of Canberra, I worked in a group of three. We were tasked with creating a Print & Play game. Using Cluedo as inspiration, we created a game about finding endangered animals. One part of the assignment was to create a video introducing the game or a trailer. This was one of my tasks. Using Premiere Pro and After Effects, I created a simple motion graphic video showcasing the game.
+
+    title2: Xaana.Ai Application test
+    para2: During the recruitment process for Xaana.Ai, I was tasked with creating a simple infographic about iOCR technology to showcase my skills and knowledge for the role. I was able to do a good job and was offered work at the company. This project was made using After Effects and mainly used simple motion graphics.
+
+
 audio:
     one: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1173738619&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
     two: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1157779159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
