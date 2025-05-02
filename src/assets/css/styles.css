@@ -112,6 +112,9 @@ footer {
     font-size: 2em;
    
 }
+.hero h4{
+    margin-top: 2%;
+}
 
 /*NavBar Start*/
 .navbar, .dropdown {
