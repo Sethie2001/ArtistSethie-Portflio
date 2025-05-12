@@ -8,17 +8,19 @@ layout: base
         <h4>A Previs & Layout Artist who is a passionate storyteller and visualiser.</h4>
     </div>
 </div>
-
-<div class="main-content">
-    <div class="inner-wrapper">
-    {{ content }}
-   
-    </div>
+<div class="main-content Showreelsize">
+    <iframe src="{{showreel}}" allow="fullscreen"   title="Showreel" ></iframe>
 </div>
+
 <!--This section is for the gallery of image
 the image tag is getting the image/alt from the markdown file -->
-<div class="section2 Showreelsize">
-    <iframe src="{{showreel}}" allow="fullscreen"   title="Showreel"></iframe>
+<div class="section2 ">
+    
+        <div class="inner-wrapper">
+        {{ content }}
+       
+        </div>
+  
    
 </div>
 

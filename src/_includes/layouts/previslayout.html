@@ -17,41 +17,40 @@ layout: base
     </div>
     
     <div class="section2">
-        <h2 class="headdingtext">Full Length and Other Previs & Layout Projects</h2>
-        <div class="flexpreviscontainer">
-            <div class="previsitem">
-                <iframe src="https://www.youtube.com/embed/CtvFzXUBT7I" allow="fullscreen"></iframe>
-                <h1>Sk8-Bit - Full Film</h1>             
-                <p>
-                    This film was created in Studio 2 at the UTS Animal Logic Academy, where I, along with the layout team, worked on and learnt camera tracking using Blender’s
-                     motion tracking system. We created a track that enabled the integration of CG elements into the VFX film by all other departments. You're able to view some 
-                     of my tracks that I accoblished as part Layout team at the end of my showreel. <br>         
-                
-                
-                
-                </p>
+        {% include "layouts/infobox.html" with videoInfo %}
+        <div class="gridrow"> 
+            <div class="gridcolumn">                
+                <button onclick="document.getElementById('Video01').style.display='block'" >
+                    <iframe src="{{videoInfo.video1.videolinks}}" allow="fullscreen"></iframe>
+                    <h2>{{videoInfo.video1.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>
+                <button onclick="document.getElementById('Video02').style.display='block'">
+                    <iframe src="{{videoInfo.video2.videolinks}}" allow="fullscreen"></iframe>
+                    <h2>{{videoInfo.video2.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>   
+                 <button onclick="document.getElementById('Video05').style.display='block'">
+                    <iframe src="{{videoInfo.video5.videolinks}}" allow="fullscreen"></iframe>
+                    <h2>{{videoInfo.video5.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>
+                                             
             </div>
-            <div class="previsitem">
-                <iframe src="https://www.youtube.com/embed/o54JP-EV2rM" allow="fullscreen"></iframe>
-                <h1>Camera Practice Work Using Referenced Film</h1>
-                <h2>SkyFall: Train flight Sequences (Action Camera)</h2> 
-                
 
-            </div>
-            <div class="previsitem">
-                <iframe src="https://www.youtube.com/embed/7W49wDcSi4o" allow="fullscreen"></iframe>
-                <h1>Camera Practice Work Using Referenced Film</h1>
-                <h2>The Incredibles: Family Argument Sequences (Dialouge Camera) </h2>
-                
-            </div>
-            <div class="previsitem">
-                <iframe src="https://www.youtube.com/embed/Xf9kOf-vfGQ" allow="fullscreen"></iframe>
-                <h1>Storyboard to Previs Pratice </h1>                
-            </div>
-            <div class="previsitem">
-
-            </div>
-            <div class="previsitem">
+            <div class="gridcolumn">
+                <button onclick="document.getElementById('Video03').style.display='block'">
+                    <img src="{{videoInfo.video3.videolinks}}" alt="{{images.foolalt}}" class="gridimages"></iframe>
+                    <h2>{{videoInfo.video3.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>
+                <button onclick="document.getElementById('Video04').style.display='block'">
+                    <iframe src="{{videoInfo.video4.videolinks}}" allow="fullscreen"></iframe>
+                    <h2> {{videoInfo.video4.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>
+               
+               
                 
             </div>
         </div>

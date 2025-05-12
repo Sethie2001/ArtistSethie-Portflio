@@ -6,86 +6,72 @@ layout: base
     <iframe src="{{showreellink1}}" allow="fullscreen"></iframe>
   
     <iframe src= "{{filebreak}}#toolbar=0" style="width: 35%;"></iframe>
-  
-
 </div>
-<h2 class="headdingtext">Editing and Videography</h2>
-<div class="flexpreviscontainer">
-  <div class="previsitem">
-    <iframe src="{{clip.one}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{cliptext.title1}}</h2>
-    <p>{{cliptext.para1}}</p>
-  </div>
-  
+<div class="section2">
+  <h2 class="headdingtext">Editing and Videography</h2>
+  {% include "layouts/infobox.html" with videoInfo %}
+  <div class="gridrow"> 
+    <div class="gridcolumn">                
+      <button onclick="document.getElementById('Video01').style.display='block'" >
+          <iframe src="{{videoInfo.video1.videolinks}}" allow="fullscreen"></iframe>
+          <h2>{{videoInfo.video1.title}}</h2>
+          <p>Click for more Infomation</p>
+      </button>
+      <button onclick="document.getElementById('Video02').style.display='block'">
+          <iframe src="{{videoInfo.video2.videolinks}}" allow="fullscreen"></iframe>
+          <h2>{{videoInfo.video2.title}}</h2>
+          <p>Click for more Infomation</p>
+      </button>                                 
+    </div>
 
-  <div class="previsitem">
-    <iframe src="{{clip.two}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{cliptext.title2}}</h2>
-    <p>{{cliptext.para2}}</p>
+    <div class="gridcolumn">
+        <button onclick="document.getElementById('Video03').style.display='block'">
+            <iframe src="{{videoInfo.video3.videolinks}}"></iframe>
+            <h2>{{videoInfo.video3.title}}</h2>
+            <p>Click for more Infomation</p>
+        </button>
+        <button onclick="document.getElementById('Video04').style.display='block'">
+            <iframe src="{{videoInfo.video4.videolinks}}" allow="fullscreen"></iframe>
+            <h2> {{videoInfo.video4.title}}</h2>
+            <p>Click for more Infomation</p>
+        </button>   
+    </div>
   </div>
 
-  <div class="previsitem">
-    <iframe src="{{clip.four}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{cliptext.title4}}</h2>
-    <p>{{cliptext.para4}}</p>
+  <h2 class="headdingtext">Motion Graphics</h2>
+  <div class="gridrow">
+    <div class="gridcolumn">
+      <button onclick="document.getElementById('Motion1').style.display='block'">
+        <iframe src="{{videoInfo.motion1.videolinks}}"></iframe>
+        <h2>{{videoInfo.motion1.title}}</h2>
+        <p>Click for more Infomation</p>
+      </button>
+    </div>
+
+    <div class="gridcolumn">
+      <button onclick="document.getElementById('Motion2').style.display='block'">
+        <iframe src="{{videoInfo.motion2.videolinks}}"></iframe>
+        <h2>{{videoInfo.motion2.title}}</h2>
+        <p>Click for more Infomation</p>
+      </button>
+    </div>
   </div>
 
-  <div class="previsitem">
-    <iframe src="{{clip.six}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{cliptext.title6}}</h2>
-    <p>{{cliptext.para6}}</p>
+  <h2 class="headdingtext">Audio Editing</h2>
+  <div class="gridrow">
+    <div class="gridcolumn">
+      <button onclick="document.getElementById('Audio1').style.display='block'">
+        <iframe src="{{videoInfo.audio1.videolinks}}"></iframe>
+        <h2>{{videoInfo.audio1.title}}</h2>
+        <p>Click for more Infomation</p>
+      </button>
+    </div>
+    <div class="gridcolumn">
+      <button onclick="document.getElementById('Audio2').style.display='block'">
+        <iframe src="{{videoInfo.audio2.videolinks}}"></iframe>
+        <h2>{{videoInfo.audio2.title}}</h2>
+        <p>Click for more Infomation</p>
+      </button>
+    </div>
   </div>
-
 </div>
-<h2 class="headdingtext">Motion Graphics</h2>
-  <div class="flexpreviscontainer">
-    <div class="previsitem">
-      <iframe src="{{motion.one}}" frameborder="0" allowfullscreen></iframe>
-      <h2>{{motiontxt.title1}}</h2>
-      <p>{{motiontxt.para1}}</p>
-  </div>
-  <div class="previsitem">
-    <iframe src="{{motion.two}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{motiontxt.title2}}</h2>
-    <p>{{motiontxt.para2}}</p>
-  </div>
-  <div class="previsitem">
-    <iframe src="{{motion.three}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{motiontxt.title3}}</h2>
-    <p>{{motiontxt.para3}}</p>
-  </div>
-</div>
-
-<h2 class="headdingtext">Audio Editing</h2>
-<div class="flexpreviscontainer">
-  <div class="previsitem">
-    <iframe src="{{audio.one}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{audiotext.title1}}</h2>
-    <p>{{audiotext.para1}}</p>
-  </div>
-
-  <div class="previsitem">
-    <iframe src="{{audio.two}}" frameborder="0" allowfullscreen></iframe>
-    <h2>{{audiotext.title2}}</h2>
-    <p>{{audiotext.para2}}</p>
-  </div>
-
-  <div class="previsitem">
-
-  </div>
-</div>
-
-
-
-
-
-
-
-
-    
-
-  
-
-
-
-
