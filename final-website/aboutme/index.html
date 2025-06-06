@@ -66,56 +66,58 @@ full-->
             <!--A slightly different layout for the about page.
 allowing for images-->
 <div class="main-content">
-    <div class="flex-along">
-        <div class="alongsection">
+     <div class="about gridrow"> 
+        <div class="about gridcolumn">  
         <h1>About Me</h1>
 <p>Seth Arnould has graduated from the UTS Animal Logic Academy, where they focused on Layout and Previs. Their goal is to become a Previs/Layout Artist in the animation indutry but also develop more into VFX Layout, and to contuine to combine their passion for camera work and storytelling. At the academy, Seth has honed their skills to excel in this field.</p>
 <p>Prior to this, Seth graduated with a degree in Digital Media from the University of Canberra, specializing in all things Digital Media. They gained experience in animation, sound design, web design, Motion graphics, filmmaking, and photography. While passionate about animation, Seth enjoys experimenting with various digital mediums, including 3D software like Maya and Blender. Their diverse skill set reflects a broad creative interest that began in high school and continues to drive them in their pursuit of a career in animation.</p>
 
         </div>  
-        <div class="alongsection">
-            <img src="/assets/images/person1.png" alt="Image of Artist sethie, a sketch" class="imageprofile">
+        <div class="about gridcolumn">  
+            <img src="/assets/images/profile1.jpg" alt="Image of Artist sethie, a sketch" class="imageprofile">
         </div>
         
     </div>    
 </div>
 <div class="section2">
-    <div class="flex-along">
-        <div class="alongsection">
+    <div class="abouts2 gridrow">
+        <div class="abouts2 gridcolumn">
             <div class="pdfalign">
-                <iframe src= "/assets/images/Resume_v03.pdf#toolbar=0" ></iframe>                   
+                <img src= "/assets/images/Resume.jpg" ></iframe>                   
             </div>    
         </div>        
 
-        <div class="alongsection">
+        <div class="abouts2 gridcolumn">
             <h1>Come and say Gday!</h1>
             <h3>Fill in the form Below, To contact me</h3>
             <p id="contacttime">Feel free to get in touch for freelance work, collaborations, or just to say Gday!”</p>
             
  <form action="https://formspree.io/f/xvgpjajb" method="POST">
-       
+      <div class="contactformclass">
         <label>
-          Your Name:<br/>
+          <h3>Your Name:</h3>
           <input type="text" name="name" class="smalltext" placeholder="Your Name" />
         </label>
-        <br/>
+       
         <label>
-          Your email:<br/>
+          <h3>Your email:</h3>
           <input type="email" name="email" class="smalltext" placeholder="Your Email" />
         </label>
-        <br/>
+        
         <label>
-          Subject: <br/>
+          <h3>Subject:</h3>
           <input name="subject" placeholder="Write the Subject of your message" class="smalltext" />
         </label>
-        <br/>
-        <label>
-          Your message:<br/>
+      
+        <label class="textareaclass">
+          <h3>Your message:</h3>
           <textarea name="message" class="textbox" placeholder="Write your message here..."></textarea>
         </label>
-        <br/>
+       
         <button type="submit">Send</button>
-    <p style="font-size: 12px; color: red; font-style: italic;">You will be redirected off this site when you press the button. This completely Normal because the use of a thrid party site for this form to work.</p>
+      
+        <p style="font-size: 12px; color: red; font-style: italic;">You will be redirected off this site when you press the button. This completely Normal because the use of a thrid party site for this form to work.</p>
+      </div> 
   </form>
 
 

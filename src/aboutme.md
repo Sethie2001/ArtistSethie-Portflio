@@ -4,12 +4,12 @@ title: Artist Sethie - About Me
 
 
 images:
-    image: /assets/images/person1.png
+    image: /assets/images/profile1.jpg
 
 alt:
     text: Image of Artist sethie, a sketch
 
-file: /assets/images/Resume_v03.pdf
+file: /assets/images/Resume.jpg
 
 
 ---

@@ -295,11 +295,7 @@ blockquote{
 }
 
 
-.pdfalign iframe{
-    flex: 1 1 auto;
-    width: 100%;
-    height: 650px;
-}
+
 
 
 
@@ -401,42 +397,39 @@ blockquote{
     text-align: center;
 }
 
-
- .smalltext, .textbox{    
-    width: 400px;
-    padding: 5%;
-    margin: 8px 0;
-    border: 1px solid ;
-    border-radius: 4px;
-}
-
-.textbox{    
-    height: 200px;
-}
-
-
 label{
     padding: 12px 12px 12px 0;
-    display: inline-block;
+    display: block;
     font-size: 1em;
     font-weight: bold;
     text-align: left;
     
 }
-button[type=submit] {
+ .contactformclass input, .contactformclass textarea{
+    display: block;    
+    width: 400px;
+    padding: 5%;
+    margin: 8px 0;
+    margin-top: 2%;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+.contactformclass textarea{
+    height: 100px;
+
+}
+.contactformclass button[type=submit] {
    
-    background-color: #041020;   
-    padding: 3% 30%; 
+    background-color: #2359a0;   
+    padding: 3%; 
+    width: 75%;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
     
   }
-
-
-
 
 .split {    
     display: flex;
@@ -446,16 +439,6 @@ button[type=submit] {
     padding: 5%;
   }
 
-  
-
-  input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-  }
- 
-
   .Showreelsize iframe{
     display: block;
     margin: 0 auto;
@@ -463,7 +446,6 @@ button[type=submit] {
     width: 50%;
     height: 400px;
  
-      
   }
 
   /*Grid & pop up*/
@@ -520,15 +502,18 @@ button[type=submit] {
     flex: 25%;
     padding: 0 4px;
     }
-    .gridcolumn iframe, .gridcolumn img{
+    .gridcolumn iframe{
         margin-top: 8px;
         vertical-align: middle;
         width: 100%;
         height: 350px;
     }
+   
     .gridcolumn h2, .gridcolumn h3{
         margin-top: 2%;
     }
+   
+    
     .gridrow button{
         width: 100%;
         background-color: transparent;
@@ -541,6 +526,9 @@ button[type=submit] {
       transform: scale(1.1);
       transition: 1.1s;
     }
+    .contactformclass button:hover{
+    background-color: #40aebd;   
+}
     .smallvidrow{
         display: flex;
         flex-wrap: wrap;
@@ -555,6 +543,21 @@ button[type=submit] {
     height: 75%;
    }
 
+    .imageprofile {
+        height: 500px;
+        vertical-align: middle;
+        border-radius: 50%;
+  }
+   .gridrow .about, .gridrow .abouts2{
+    padding: 2%;
+  }
+
+  .pdfalign img{
+    display: block;
+    height: 800px;
+
+}
+
    
     
 
@@ -562,7 +565,16 @@ button[type=submit] {
   
   /* Control the right side */
 
-
+@media screen and (max-width: 1295px){
+     .about .gridcolumn,  .abouts2 .gridcolumn   {
+    flex: 50%;
+  } 
+   .imageprofile{
+    display: block;
+    margin: 0 auto;  
+    border-radius: 0;
+  }
+}
 
 @media screen and  (max-width: 800px ) {
 /*making so image is no longer center of flex box and
@@ -578,7 +590,7 @@ body{
 
 
 }
-@media screen and  (max-width: 800px ) {
+@media screen and  (max-width: 850px ) {
    /*all the a tag in nav but the first tag (which is home) change
    display to none and is no longer visable*/
    .navbar a:not(:first-child),.dropdown .dropbtn, #header .flex-footer a:not(:first-child), #header .donatebtn{
@@ -641,20 +653,36 @@ body{
    height: calc(540px / 2);
    width: calc(960px / 2);
   }
-
  
   
   .imgbackground{
     height:150px;
     background-position:top;
   }
-  .imageprofile{
-    height: 300px;
-  }
-  .smalltext, .textbox{    
-    width: 250px;
-
+ 
+ 
+.contactformclass label{
+    margin: 1%;
+    text-align: center;
 }
+
+
+ .contactformclass input, .contactformclass textarea{       
+    width: 100%;
+    height: 50px;
+}
+.contactformclass .textareaclass{
+    text-align: left;   
+    width: 80%;
+}
+.contactformclass button[type=submit]{
+     display: block;
+     margin: 0 auto;
+}
+.imageprofile{
+    height: 500px;
+}
+
 
 
 }
@@ -695,16 +723,54 @@ body{
         height: 175px;
     }
 
+    .Showreelsize iframe{
+   
+        height: calc(540px / 4);
+        width: calc(960px / 4);
+  }
+ 
+  
+  
+  .pdfalign img{
+    height: 400px;
+  }
+  
+    .contactformclass label{
+        margin: 1%;
+        text-align: center;
+        width: 26%;
+    }
+
+
+    .contactformclass input, .contactformclass textarea{      
+        
+        padding-right: 10%;
+       
+        
+    }
+    .contactformclass .textareaclass{
+      
+        text-align: left; 
+        width: 85%;
+        
+    }
+    .contactformclass button[type=submit]{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+
+ 
+ 
+
 }
 
 @media screen and  (max-width: 420px ){
     .hero{       
         font-size: 1.5em;
     }
-    .smalltext, .textbox{    
-        width: 150px;
-    
-    }
+   
 
 
     
