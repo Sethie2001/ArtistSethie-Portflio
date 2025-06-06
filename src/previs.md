@@ -55,7 +55,7 @@ videoInfo:
         videolinks: https://www.youtube.com/embed/o54JP-EV2rM
     
     video3:   
-        title: "Animation: Fool's Gold (Coming Soon)"
+        title: "Animation: Fool's Gold (2024)"
         paragraph: "'Fool's Gold' was created as the main collaborative project in the Master of Animation and Visualisation degree at the UTS Animal Logic Academy.
                         The 2024 cohort worked in a simulated professional studio environment over the course of a year to produce a fantasy genre animated film, developed across 
                         specialised departments. My role in this project was as a Previs & Layout Artist, here I contributed both to the early and final stages of production.
@@ -69,7 +69,7 @@ videoInfo:
         Software: "Autodesk Maya"
         Produced: "UTS Animal Logic Academy"
 
-        videolinks: ../assets/images/FoolGold.jpg
+        videolinks: https://www.youtube.com/embed/3tqwXk1W0eg
 
     video4:   
         title: "'Detained' Storyboard translation Task"
