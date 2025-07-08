@@ -30,7 +30,7 @@ images:
 quote: "Crafting, and visualising stories by shaping narratives and bringing ideas through cameras and visualise the story through previs and camera"
 
 
-showreel: https://www.youtube.com/embed/hY4N3pEhcCQ
+showreel: https://www.youtube.com/embed/Qfq1R8m6oC4
 
 #below is the main content part for the home page
 ---

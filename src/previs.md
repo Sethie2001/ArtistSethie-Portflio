@@ -3,10 +3,9 @@ layout: layouts/previslayout
 
 title: Artist Sethie - Previs
 
-showreellink1: https://www.youtube.com/embed/R92Qhr0Anec
+showreellink1: https://www.youtube.com/embed/Qfq1R8m6oC4
 
 
-showreellink2: https://www.youtube.com/embed/hY4N3pEhcCQ
 
 images:
     first: ../assets/images/image1.jpg

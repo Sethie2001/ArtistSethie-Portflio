@@ -3,18 +3,12 @@ layout: base
 ---
 <br>
    
-    <div class="flexreel">
-        <div class="reelitem">
+    <div class="editorreel">
             
             <iframe src="{{showreellink1}}" allow="fullscreen"></iframe>           
-        </div>    
-        <div class="reelitem">
-            
-            <iframe src="{{showreellink2}}" allow="fullscreen"></iframe>
-            
-        </div>          
+    </div>                  
        
-    </div>
+  
     
     <div class="section2">
         {% include "layouts/infobox.html" with videoInfo %}
@@ -56,16 +50,7 @@ layout: base
         </div>
     </div>
 
-    <div class="artgallery">
-        <div class="column">
-            <img src="{{images.first}}" alt="{{images.alt1}}" class="artwork">        
-        </div>
-     
-        <div class="column">                  
-            <img src="{{images.six}}" alt="{{images.alt6}}" class="artwork">
-            <img src="{{images.seven}}" alt="{{images.alt7}}" class="artwork">
-        </div>
-    </div>
+ 
 
 
     
