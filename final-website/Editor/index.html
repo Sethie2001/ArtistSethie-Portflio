@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 
 <head>
 
@@ -71,7 +71,13 @@ full-->
 </div>
 <div class="section2">
   <h2 class="headdingtext">Editing and Videography</h2>
-  <div id="Video01" class="modal">
+  <script>
+  function showModal(nextId, currentId) {
+    document.getElementById(currentId).style.display = 'none'
+    document.getElementById(nextId).style.display = 'block'
+}
+</script>
+<div id="Video01" class="modal">
     <div class="modal-content">
       <div class="Infocontainer">
         <span onclick="document.getElementById('Video01').style.display='none'" class="closebtn">&times;</span>
@@ -87,6 +93,10 @@ full-->
                     <b>Software:</b> Adobe Premiere Pro <br/>
                     <b>Produced at:</b>  University of Canberra
                 </p>
+                <div class="nextinfobox">                
+                  <a onclick="showModal('Video05', 'Video01')" class="contbtn previous round">&#8249; Previous</a>
+                  <a onclick="showModal('Video02', 'Video01')" class="contbtn next round">Next &#8250;</a>
+                </div>  
             </div>
             <div class="gridcolumn">
             <iframe src="https://www.youtube.com/embed/4K1iyF_tE_w" width="50%" height="50%" frameborder="0"></iframe>
@@ -117,6 +127,10 @@ For the opening scene, which featured 'Woody' skating into the park, we filmed m
                       <b>Software:</b> Adobe Premiere Pro <br/>
                       <b>Produced at:</b>  University of Canberra
                   </p>
+                  <div class="nextinfobox">                
+                    <a onclick="showModal('Video01', 'Video02')" class="contbtn previous round">&#8249; Previous</a>
+                    <a onclick="showModal('Video03', 'Video02')" class="contbtn next round">Next &#8250;</a>
+                  </div>  
                 </div>
                 <div class="gridcolumn">
                     <iframe src="https://www.youtube.com/embed/njmNF-h0G9Q" width="100%" height="100%" frameborder="0"></iframe>
@@ -179,6 +193,28 @@ This was a valuable and interesting experience that exposed me to the full proce
     <div class="modal-content">
       <div class="Infocontainer">
         <span onclick="document.getElementById('Video05').style.display='none'" class="closebtn">&times;</span>
+          <div class="gridrow"> 
+            <div class="gridcolumn">
+              <h1> Omurice Recipe - Cooking Video</h1>
+              <p></p>
+              <p class="detailproject">
+                  <b>Roles:</b> Videographer, Editor and Graphic Desginer <br/>
+                  <b>Software:</b> Premiere Pro, After Effect, and Illustrator <br/>
+                  <b>Produced at:</b>  for Ojama Cooking Youtube Channel
+              </p>
+            </div>
+            <div class="gridcolumn">
+                <iframe src="https://www.youtube.com/embed/wR8MAV0Id4s" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+          </div>        
+      </div>
+    </div>
+  </div>
+
+  <div id="Video06" class="modal">
+    <div class="modal-content">
+      <div class="Infocontainer">
+        <span onclick="document.getElementById('Video06').style.display='none'" class="closebtn">&times;</span>
           <div class="gridrow"> 
             <div class="gridcolumn">
               <h1> </h1>
@@ -298,7 +334,13 @@ Working closely with the client, we discussed the topic for the episode and iden
           <iframe src="https://www.youtube.com/embed/njmNF-h0G9Q" allow="fullscreen"></iframe>
           <h2>Erindale Brick Banks</h2>
           <p>Click for more Infomation</p>
-      </button>                                 
+      </button>  
+      
+      <button onclick="document.getElementById('Video05').style.display='block'">
+          <iframe src="https://www.youtube.com/embed/wR8MAV0Id4s" allow="fullscreen"></iframe>
+          <h2>Omurice Recipe - Cooking Video</h2>
+          <p>Click for more Infomation</p>
+      </button> 
     </div>
 
     <div class="gridcolumn">

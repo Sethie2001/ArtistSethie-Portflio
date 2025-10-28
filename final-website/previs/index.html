@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 
 <head>
 
@@ -74,7 +74,13 @@ full-->
   
     
     <div class="section2">
-        <div id="Video01" class="modal">
+        <script>
+  function showModal(nextId, currentId) {
+    document.getElementById(currentId).style.display = 'none'
+    document.getElementById(nextId).style.display = 'block'
+}
+</script>
+<div id="Video01" class="modal">
     <div class="modal-content">
       <div class="Infocontainer">
         <span onclick="document.getElementById('Video01').style.display='none'" class="closebtn">&times;</span>
@@ -90,6 +96,10 @@ full-->
                     <b>Software:</b> Blender Motion Tracking & Autodesk Maya <br/>
                     <b>Produced at:</b>  UTS Animal Logic Academy
                 </p>
+                <div class="nextinfobox">                
+                  <a onclick="showModal('Video05', 'Video01')" class="contbtn previous round">&#8249; Previous</a>
+                  <a onclick="showModal('Video02', 'Video01')" class="contbtn next round">Next &#8250;</a>
+                </div>  
             </div>
             <div class="gridcolumn">
             <iframe src="https://www.youtube.com/embed/CtvFzXUBT7I" width="50%" height="50%" frameborder="0"></iframe>
@@ -118,6 +128,10 @@ full-->
                       <b>Software:</b> Autodesk Maya <br/>
                       <b>Produced at:</b>  UTS Animal Logic Academy as Pratice & Portfolio Task
                   </p>
+                  <div class="nextinfobox">                
+                    <a onclick="showModal('Video01', 'Video02')" class="contbtn previous round">&#8249; Previous</a>
+                    <a onclick="showModal('Video03', 'Video02')" class="contbtn next round">Next &#8250;</a>
+                  </div>  
                 </div>
                 <div class="gridcolumn">
                     <iframe src="https://www.youtube.com/embed/o54JP-EV2rM" width="100%" height="100%" frameborder="0"></iframe>
@@ -189,6 +203,28 @@ full-->
             </div>
             <div class="gridcolumn">
                 <iframe src="https://www.youtube.com/embed/7W49wDcSi4o" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+          </div>        
+      </div>
+    </div>
+  </div>
+
+  <div id="Video06" class="modal">
+    <div class="modal-content">
+      <div class="Infocontainer">
+        <span onclick="document.getElementById('Video06').style.display='none'" class="closebtn">&times;</span>
+          <div class="gridrow"> 
+            <div class="gridcolumn">
+              <h1> Camera Recration: Jurassic Park (Welcome to Park Scene)</h1>
+              <p>This year I have continued to develop and improve my skills by working on small projects such as recreating cameras from movie scenes, developing simple character animation, previs, and learning more about camera work. I undertook another camera and scene recreation task, this time focusing on the 'Welcome to Jurassic Park' scene. Each shot in this sequence uses a different type of camera movement, angle, and lensing, which gave me the opportunity to study how these choices affect the feel of a shot. Recreating the scene helped me deepen my understanding of cinematography and get into the mindset of what the filmmakers might have been considering. </p>
+              <p class="detailproject">
+                  <b>Roles:</b> Previs Artist <br/>
+                  <b>Software:</b> Autodesk Maya <br/>
+                  <b>Produced at:</b>  Personal project - Pratice
+              </p>
+            </div>
+            <div class="gridcolumn">
+                <iframe src="https://www.youtube.com/embed/5Jdan1HpFdQ" width="100%" height="100%" frameborder="0"></iframe>
             </div>
           </div>        
       </div>
@@ -315,11 +351,30 @@ full-->
                     <h2> 'Detained' Storyboard translation Task</h2>
                     <p>Click for more Infomation</p>
                 </button>
+
+                <button onclick="document.getElementById('Video06').style.display='block'">
+                    <iframe src="https://www.youtube.com/embed/5Jdan1HpFdQ" allow="fullscreen"></iframe>
+                    <h2>Camera Recration: Jurassic Park (Welcome to Park Scene)</h2>
+                    <p>Click for more Infomation</p>
+                </button>
                
                
                 
             </div>
         </div>
+    </div>
+    <h2 class="headdingtext">Modeling</h2>
+    <p class="subparagraphtext">
+      This section highlights my 3D modelling work, focusing on creating clean, efficient proxy and placeholder models for previs 
+      and layout. These models help visualise scenes with accurate form and scale, making it easier to plan and tell the story.
+    </p>
+
+
+    <div class="modelingconta">
+        <div> <iframe src="/assets/video/Barrelcrate.mp4"></iframe></div>      
+        <div><iframe src="/assets/video/Cabbagecart.mp4"></iframe></div>
+        <div><iframe src="/assets/video/MarketStall.mp4"></iframe></div>
+        
     </div>
 
  

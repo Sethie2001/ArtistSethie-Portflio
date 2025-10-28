@@ -8,23 +8,6 @@ showreellink1: https://www.youtube.com/embed/Qfq1R8m6oC4
 
 
 images:
-    first: ../assets/images/image1.jpg
-    alt1: 3D model of a Ginza line train
-    second: ../assets/images/3D/1chesse.png
-    alt2: Model of Chesse (High School Project)
-    third: ../assets/images/3D/2chess.png
-    alt3: Model of Chess (High School Project)
-    forth: ../assets/images/3D/3choco.png
-    alt4: Model of Chocolate bar 
-    five: ../assets/images/3D/4dices.png
-    alt5: Model of Dices (High School Project)
-    six: ../assets/images/3D/5train.png
-    alt6: Rendered Image of Toy Train seet
-    seven: ../assets/images/3D/6traindiff.png
-    alt7: Rendered Image of Toy Train set, different angled
-    eight: ../assets/images/3D/7rubix.png
-    alt8: Model of Rubnix cube
-
     fool: 
     foolalt: Image of a scene in Fool's Gold
 filebreak: /assets/images/Breakdowndocument-Previs.pdf
@@ -94,6 +77,21 @@ videoInfo:
         Produced: "UTS Animal Logic Academy"
 
         videolinks: https://www.youtube.com/embed/7W49wDcSi4o
+
+    video6:   
+        title: "Camera Recration: Jurassic Park (Welcome to Park Scene)"
+        paragraph: "This year I have continued to develop and improve my skills by working on small projects such as recreating cameras from movie scenes, developing simple character animation, previs, and learning more about camera work. I undertook another camera and scene recreation task, this time focusing on the 'Welcome to Jurassic Park' scene. Each shot in this sequence uses a different type of camera movement, angle, and lensing, which gave me the opportunity to study how these choices affect the feel of a shot. Recreating the scene helped me deepen my understanding of cinematography and get into the mindset of what the filmmakers might have been considering.
+ "
+        role: "Previs Artist"
+        Software: "Autodesk Maya"
+        Produced: "Personal project - Pratice"
+
+        videolinks: https://www.youtube.com/embed/5Jdan1HpFdQ
+            
+Modlingvideo:
+    one: /assets/video/Barrelcrate.mp4
+    two: /assets/video/Cabbagecart.mp4
+    three: /assets/video/MarketStall.mp4
     
 
    

@@ -44,11 +44,30 @@ layout: base
                     <h2> {{videoInfo.video4.title}}</h2>
                     <p>Click for more Infomation</p>
                 </button>
+
+                <button onclick="document.getElementById('Video06').style.display='block'">
+                    <iframe src="{{videoInfo.video6.videolinks}}" allow="fullscreen"></iframe>
+                    <h2>{{videoInfo.video6.title}}</h2>
+                    <p>Click for more Infomation</p>
+                </button>
                
                
                 
             </div>
         </div>
+    </div>
+    <h2 class="headdingtext">Modeling</h2>
+    <p class="subparagraphtext">
+      This section highlights my 3D modelling work, focusing on creating clean, efficient proxy and placeholder models for previs 
+      and layout. These models help visualise scenes with accurate form and scale, making it easier to plan and tell the story.
+    </p>
+
+
+    <div class="modelingconta">
+        <div> <iframe src="{{Modlingvideo.one}}"></iframe></div>      
+        <div><iframe src="{{Modlingvideo.two}}"></iframe></div>
+        <div><iframe src="{{Modlingvideo.three}}"></iframe></div>
+        
     </div>
 
  

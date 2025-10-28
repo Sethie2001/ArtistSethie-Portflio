@@ -1,3 +1,9 @@
+<script>
+  function showModal(nextId, currentId) {
+    document.getElementById(currentId).style.display = 'none'
+    document.getElementById(nextId).style.display = 'block'
+}
+</script>
 <div id="Video01" class="modal">
     <div class="modal-content">
       <div class="Infocontainer">
@@ -14,6 +20,10 @@
                     <b>Software:</b> {{videoInfo.video1.Software}} <br/>
                     <b>Produced at:</b>  {{videoInfo.video1.Produced}}
                 </p>
+                <div class="nextinfobox">                
+                  <a onclick="showModal('Video05', 'Video01')" class="contbtn previous round">&#8249; Previous</a>
+                  <a onclick="showModal('Video02', 'Video01')" class="contbtn next round">Next &#8250;</a>
+                </div>  
             </div>
             <div class="gridcolumn">
             <iframe src="{{videoInfo.video1.videolinks}}" width="50%" height="50%" frameborder="0"></iframe>
@@ -42,6 +52,10 @@
                       <b>Software:</b> {{videoInfo.video2.Software}} <br/>
                       <b>Produced at:</b>  {{videoInfo.video2.Produced}}
                   </p>
+                  <div class="nextinfobox">                
+                    <a onclick="showModal('Video01', 'Video02')" class="contbtn previous round">&#8249; Previous</a>
+                    <a onclick="showModal('Video03', 'Video02')" class="contbtn next round">Next &#8250;</a>
+                  </div>  
                 </div>
                 <div class="gridcolumn">
                     <iframe src="{{videoInfo.video2.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>
@@ -113,6 +127,28 @@
             </div>
             <div class="gridcolumn">
                 <iframe src="{{videoInfo.video5.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+          </div>        
+      </div>
+    </div>
+  </div>
+
+  <div id="Video06" class="modal">
+    <div class="modal-content">
+      <div class="Infocontainer">
+        <span onclick="document.getElementById('Video06').style.display='none'" class="closebtn">&times;</span>
+          <div class="gridrow"> 
+            <div class="gridcolumn">
+              <h1> {{videoInfo.video6.title}}</h1>
+              <p>{{videoInfo.video6.paragraph}}</p>
+              <p class="detailproject">
+                  <b>Roles:</b> {{videoInfo.video6.role}} <br/>
+                  <b>Software:</b> {{videoInfo.video6.Software}} <br/>
+                  <b>Produced at:</b>  {{videoInfo.video6.Produced}}
+              </p>
+            </div>
+            <div class="gridcolumn">
+                <iframe src="{{videoInfo.video6.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>
             </div>
           </div>        
       </div>

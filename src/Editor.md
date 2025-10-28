@@ -53,6 +53,16 @@ videoInfo:
         Produced: "University of Canberra"
         videolinks: https://www.youtube.com/embed/bCaOpMCqnNw
 
+    video5:   
+        title: "Omurice Recipe - Cooking Video"
+        paragraph: ""
+        Synopsis: ""
+        role: "Videographer, Editor and Graphic Desginer"
+        Software: "Premiere Pro, After Effect, and Illustrator"
+        Produced: "for Ojama Cooking Youtube Channel"
+        videolinks: https://www.youtube.com/embed/wR8MAV0Id4s
+       
+
     motion1:   
         title: "Andangered - Board Game Trailer / Indtro Video "
         paragraph: "In a Game Design course at the University of Canberra, I worked in a group of three. We were tasked with creating a Print & Play game. Using Cluedo as inspiration, we created a game about finding endangered animals. One part of the assignment was to create a video introducing the game or a trailer. This was one of my tasks. Using Premiere Pro and After Effects, I created a simple motion graphic video showcasing the game."
