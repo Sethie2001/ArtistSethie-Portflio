@@ -11,6 +11,7 @@ images:
     fool: 
     foolalt: Image of a scene in Fool's Gold
 filebreak: /assets/images/Breakdowndocument-Previs.pdf
+
 videoInfo:
     video1:   
         title: "VFX: Sk8-Bit (2024)"
