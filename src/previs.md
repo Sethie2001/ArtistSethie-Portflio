@@ -36,8 +36,19 @@ videoInfo:
         Produced: "UTS Animal Logic Academy as Pratice & Portfolio Task"
 
         videolinks: https://www.youtube.com/embed/o54JP-EV2rM
-    
+
     video3:   
+        title: "Camera Recration: Jurassic Park (Welcome to Park Scene)"
+        paragraph: "This year I have continued to develop and improve my skills by working on small projects such as recreating cameras from movie scenes, developing simple character animation, previs, and learning more about camera work. I undertook another camera and scene recreation task, this time focusing on the 'Welcome to Jurassic Park' scene. Each shot in this sequence uses a different type of camera movement, angle, and lensing, which gave me the opportunity to study how these choices affect the feel of a shot. Recreating the scene helped me deepen my understanding of cinematography and get into the mindset of what the filmmakers might have been considering.
+ "
+        role: "Previs Artist"
+        Software: "Autodesk Maya"
+        Produced: "Personal project - Pratice"
+
+        videolinks: https://www.youtube.com/embed/5Jdan1HpFdQ
+    
+    
+    video4:   
         title: "Animation: Fool's Gold (2024)"
         paragraph: "'Fool's Gold' was created as the main collaborative project in the Master of Animation and Visualisation degree at the UTS Animal Logic Academy.
                         The 2024 cohort worked in a simulated professional studio environment over the course of a year to produce a fantasy genre animated film, developed across 
@@ -54,17 +65,6 @@ videoInfo:
 
         videolinks: https://www.youtube.com/embed/3tqwXk1W0eg
 
-    video4:   
-        title: "'Detained' Storyboard translation Task"
-        paragraph: "During my time at UTS Animal Logic Academy, we were given a storyboard by Orfenn Schuller and tasked with creating a 3D previsualisation using Autodesk Maya. 
-                  This exercise helped us develop our previs skills by learning how to interpret storyboards, determine timing, plan camera shots, and assess overall pacing. While 
-                  also identifying elements that might not translate well into a 3D environment. It was a fun and educational task that gave us valuable insight into how to effectively 
-                  adapt storyboards into previs, and what to consider when approaching this process. "
-        role: "Previs Artist"
-        Software: "Autodesk Maya"
-        Produced: "UTS Animal Logic Academy as Pratice & Portfolio Task"
-
-        videolinks: https://www.youtube.com/embed/Xf9kOf-vfGQ
     
     video5:   
         title: "Camera Recration: Incredibles (Argument scene)"
@@ -80,14 +80,18 @@ videoInfo:
         videolinks: https://www.youtube.com/embed/7W49wDcSi4o
 
     video6:   
-        title: "Camera Recration: Jurassic Park (Welcome to Park Scene)"
-        paragraph: "This year I have continued to develop and improve my skills by working on small projects such as recreating cameras from movie scenes, developing simple character animation, previs, and learning more about camera work. I undertook another camera and scene recreation task, this time focusing on the 'Welcome to Jurassic Park' scene. Each shot in this sequence uses a different type of camera movement, angle, and lensing, which gave me the opportunity to study how these choices affect the feel of a shot. Recreating the scene helped me deepen my understanding of cinematography and get into the mindset of what the filmmakers might have been considering.
- "
+        title: "'Detained' Storyboard translation Task"
+        paragraph: "During my time at UTS Animal Logic Academy, we were given a storyboard by Orfenn Schuller and tasked with creating a 3D previsualisation using Autodesk Maya. 
+                  This exercise helped us develop our previs skills by learning how to interpret storyboards, determine timing, plan camera shots, and assess overall pacing. While 
+                  also identifying elements that might not translate well into a 3D environment. It was a fun and educational task that gave us valuable insight into how to effectively 
+                  adapt storyboards into previs, and what to consider when approaching this process. "
         role: "Previs Artist"
         Software: "Autodesk Maya"
-        Produced: "Personal project - Pratice"
+        Produced: "UTS Animal Logic Academy as Pratice & Portfolio Task"
 
-        videolinks: https://www.youtube.com/embed/5Jdan1HpFdQ
+        videolinks: https://www.youtube.com/embed/Xf9kOf-vfGQ
+
+  
             
 Modlingvideo:
     one: /assets/video/Barrelcrate.mp4

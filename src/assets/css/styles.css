@@ -590,16 +590,17 @@ label{
 .contbtn:hover{
     background-color: #ddd;
     color: black;
+    cursor: pointer;
 }
 
 .previous {
-  background-color: #04AA6D;
-  color: black;
+  background-color: #40aebd;
+  color: white;
   margin-right: 5%;
 }
 
 .next {
-  background-color: #04AA6D;
+  background-color: #40aebd;
   color: white;
   margin-left: 5%;
 }
@@ -729,6 +730,9 @@ body{
 }
 .imageprofile{
     height: 500px;
+}
+.modelingconta iframe{
+    height: 135px;
 }
 
 
