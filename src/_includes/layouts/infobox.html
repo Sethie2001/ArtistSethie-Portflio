@@ -260,3 +260,57 @@
       </div>
     </div>
   </div>
+
+
+  <div id="Ojamaplaylist" class="modal">
+    <div class="modal-content">
+      <div class="Infocontainer">
+        <span onclick="document.getElementById('Ojamaplaylist').style.display='none'" class="closebtn">&times;</span>
+          <div class="gridrow"> 
+            <div class="gridcolumn">
+              <h1> {{videoInfo.Ojamaplaylist01.title}}</h1>
+              <p class="ojamainfo">{{videoInfo.Ojamaplaylist01.paragraph}}</p>
+                       
+             
+            </div>
+            <div class="gridcolumn">
+              <h1> {{videoInfo.Ojamaplaylist02.title}}</h1>
+              <p class="ojamainfo">{{videoInfo.Ojamaplaylist02.paragraph}}</p>
+                    
+             
+            </div>
+            <div class="gridcolumn">
+              <h1> {{videoInfo.Ojamaplaylist03.title}}</h1>
+              <p class="ojamainfo">{{videoInfo.Ojamaplaylist03.paragraph}}</p>
+                    
+             
+            </div>    
+          </div>
+           <div class="gridrow">
+            <div class="gridcolumn">   
+              <iframe src="{{videoInfo.Ojamaplaylist01.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>   
+            </div>
+            <div class="gridcolumn">   
+              <iframe src="{{videoInfo.Ojamaplaylist02.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>      
+            </div>
+            <div class="gridcolumn">   
+              <iframe src="{{videoInfo.Ojamaplaylist03.videolinks}}" width="100%" height="100%" frameborder="0"></iframe>     
+            </div>
+          </div>
+          <div class="gridrow">
+            <div class="gridcolumn">
+              <p class="detailproject ojaminforoles">
+                  <b>Roles:</b> {{videoInfo.Ojamaplaylistrole.role}} <br/>
+                  <b>Software:</b> {{videoInfo.Ojamaplaylistrole.Software}} <br/>
+                  {{videoInfo.Ojamaplaylistrole.Produced}}
+              </p>
+
+        
+            </div>
+          </div>     
+      </div>
+    </div>
+  </div>
+
+
+  

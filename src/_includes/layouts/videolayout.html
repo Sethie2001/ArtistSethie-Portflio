@@ -38,16 +38,16 @@ layout: base
        
         <button onclick="document.getElementById('Video04').style.display='block'">
             <iframe src="{{videoInfo.video4.videolinks}}" allow="fullscreen"></iframe>
-            <h2> {{videoInfo.video4.title}}</h2>
+            <h2> {{videoInfo.Ojamaplaylistrole.title}}</h2>
             <p class="role">{{videoInfo.video4.role}}</p>
             <p>Click for more Infomation</p>
         </button>
         
-        <button onclick="document.getElementById('Video05').style.display='block'">
-          <iframe src="{{videoInfo.video5.videolinks}}" allow="fullscreen"></iframe>
-          <h2>{{videoInfo.video5.title}}</h2>
-          <p class="role">{{videoInfo.video5.role}}</p>
-          <p>Click for more Infomation</p>
+        <button onclick="document.getElementById('Ojamaplaylist').style.display='block'">
+          <iframe src="{{videoInfo.Ojamaplaylist03.videolinks}}" allow="fullscreen"></iframe>
+          <h2>Ojama Cook Youtube Video</h2>
+          <p class="role">{{videoInfo.Ojamaplaylistrole.role}}</p>
+          <p>Click to see all Videos created for the Ojama Cooking Youtube Channel</p>
         </button> 
     </div>
   </div>
@@ -91,5 +91,38 @@ layout: base
         <p>Click for more Infomation</p>
       </button>
     </div>
+  </div>
+</div>
+<h2 class="headdingtext">Short-Form Content</h2>
+<p style="text-align: center;">Showcasing my craft for editing and filming Short-form content</p>
+<div class="gridrow">
+  <div class="gridcolumn shortform">
+      <h2> {{videoInfo.Short1.title}}</h2>
+      <p>{{videoInfo.Short1.paragraph}}</p>
+   </div>
+  <div class="gridcolumn shortform">
+      <h2> {{videoInfo.Short2.title}}</h2>
+      <p>{{videoInfo.Short2.paragraph}}</p>           
+  </div>
+</div>
+
+<div class="gridrow">
+  <div class="gridcolumn shortform">    
+      <iframe  src="{{videoInfo.Short1.videolinks}}"></iframe>
+      <p class="detailproject">
+        <b>Roles:</b> {{videoInfo.Short1.role}} <br/>
+        <b>Software:</b> {{videoInfo.Short1.Software}} <br/>
+        <b>Produced for Ojama Cooking Youtube Channel</b>
+      </p>
+              
+  </div>
+  <div class="gridcolumn shortform">
+      <iframe  src="{{videoInfo.Short2.videolinks}}"></iframe>
+      <p class="detailproject">
+        <b>Roles:</b> {{videoInfo.Short2.role}} <br/>
+        <b>Software:</b> {{videoInfo.Short2.Software}} <br/>
+        <b>Produced for Ojama Cooking Youtube Channel</b>
+      </p>
+              
   </div>
 </div>

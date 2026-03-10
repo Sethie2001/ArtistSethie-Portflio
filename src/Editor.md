@@ -53,15 +53,7 @@ videoInfo:
         Produced: "University of Canberra"
         videolinks: https://www.youtube.com/embed/bCaOpMCqnNw
 
-    video5:   
-        title: "Omurice Recipe - Cooking Video"
-        paragraph: ""
-        Synopsis: ""
-        role: "Videographer, Editor and Graphic Desginer"
-        Software: "Premiere Pro, After Effect, and Illustrator"
-        Produced: "for Ojama Cooking Youtube Channel"
-        videolinks: https://www.youtube.com/embed/wR8MAV0Id4s
-       
+ 
 
     motion1:   
         title: "Andangered - Board Game Trailer / Indtro Video "
@@ -98,6 +90,43 @@ videoInfo:
         Software: ""
         Produced: "University of Canberra"
         videolinks: https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1157779159&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true
+
+    Ojamaplaylistrole:
+        title: "Ojama Cooking - Video Editor & Videographer"
+        role: "Videographer, Editor and Graphic Desginer"
+        Software: "Premiere Pro, After Effect, and Illustrator"
+        Produced: "For Ojama Cooking Youtube Channel"
+        videolinks: https://www.youtube.com/embed/wR8MAV0Id4s
+
+    Ojamaplaylist01:
+        title: "Omurice Recipe"
+        paragraph: The first video created for this channel involved creating the avatar or character for the channel using Adobe Illustrator, keeping it simple and basic so it would not be too complex to animate. The character was only used for the intro and outro sequences to talk to the camera, with most of the video focusing on the cooking and the process of making the dish. Once the character was created, I used After Effects for voice syncing and simple character animation to add some personality. All the editing for this video was done in Premiere Pro, except for the intro and outro which were done in After Effects to make the process of bringing the character to life easier. Overall, the video was edited and recorded reasonably well, capturing high quality footage that was able to showcase the cooking process while keeping viewers entertained with the visuals. Footage was captured using two phones, a Samsung and a Google Pixel. One was used as a static tripod camera, while the other was handheld to capture close up shots of the action.
+        videolinks: https://www.youtube.com/embed/wR8MAV0Id4s
+    
+    Ojamaplaylist02:
+        title: Chicken Teriyaki Don Recipe
+        paragraph: This video continues the development of the OJaMa Cooking channel, using the animated character created in Adobe Illustrator for the intro and outro sequences. Animation and voice syncing were completed in After Effects to maintain the channel’s style and personality. The main focus of the video is demonstrating the cooking process for Chicken Teriyaki Don and its toppings, including kinshi tamago and marinated beans. Editing was completed in Premiere Pro, with footage captured using a iPhone on a tripod and a Google Pixel handheld to capture close up cooking shots.
+        videolinks: https://www.youtube.com/embed/KyYBzp0UU74
+
+    Ojamaplaylist03:
+        title: Hiyashi Chuka Recipe
+        paragraph: This video follows the same production style developed for the OJaMa Cooking channel while introducing a chilled Japanese noodle dish, Hiyashi Chuka. The animated channel character followed same method with animation and voice syncing completed in After Effects.  Editing was done in Premiere Pro, with footage recorded using a iPhone on a tripod and a Google Pixel handheld to capture close up cooking shots.
+        videolinks: https://www.youtube.com/embed/IegVxmKDSUo
+
+    Short1:
+        title: Kinshi Tamago Recipe - Youtube Short Video
+        paragraph: This was the perfect short to start the channel with, as Kinshi Tamago is used in various Japanese dishes. Making it a short allows people to quickly understand how to prepare it and add it to simple dishes, or eat it on its own. This video ties in nicely with the main long form videos, as it is featured in both videos and helps viewers understand the recipe more easily. It follows a typical short format, starting with a hook showing the end result, moving quickly through the cooking process, and ending with the final result, showing what it can be used for. It also refers back to the long form content and finishes with the standard ending phrase used in all shorts on the channel.
+        Software: Premiere Pro
+        videolinks: https://www.youtube.com/embed/fgsa9z7-JsQ 
+    Short2:
+        title: Tomato Sauce Chorizo Rice - Youtube Short video
+        paragraph: Using footage recorded for the long form video on how to make Omurice, I create a short video in vertical format explaining how to make the simple rice component of this dish. The rice can also be eaten separately, allowing the short to stand out as a standalone video while working well with the long form content. It opens with engaging footage of the finished dish to hook the viewer, moves quickly through the cooking process, and ends with a similar final shot, showing what else the rice can be used for. In this case, it is used in Omurice, and each short ends with the same phrasing.
+        Software: Premiere Pro
+        videolinks: https://www.youtube.com/embed/V73Ijq30kCM
+ 
+
+    
+        
     
 ---
 
